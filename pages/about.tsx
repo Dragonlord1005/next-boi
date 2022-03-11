@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import '@fontsource/roboto/400.css';
+import Button from '@mui/material/Button';
+import Link from 'next/link';
 
 const About: NextPage = () => {
     return (
@@ -16,6 +18,10 @@ const About: NextPage = () => {
                 <h1 className={styles.title}>
                     About
                 </h1>
+                <br />
+                <Button variant="contained">
+                    <Link href="/">Home</Link>
+                </Button>
             </main>
         </div>
     )
