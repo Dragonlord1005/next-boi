@@ -5,8 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "command": "yarn start",
+            "name": "Start Production Server",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
             "command": "yarn dev",
-            "name": "Run yarn dev",
+            "name": "Start Dev Server",
             "request": "launch",
             "type": "node-terminal"
         }
