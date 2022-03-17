@@ -7,12 +7,6 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Link from 'next/link';
 
-declare module '@mui/material/Typography' {
-  interface TypographyPropsVarientOverrides {
-    h6: true;
-  }
-}
-
 export default function Nav() {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -27,7 +21,13 @@ export default function Nav() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography varient="h6" component="div">
+          <Typography component="div" sx={{ mr: 1 }}>
+            <Link href="/">
+              Home
+            </Link>
+          </Typography>
+          <br />
+          <Typography component="div" sx={{ mr: 1 }}>
             <Link href="/about">
               About
             </Link>
