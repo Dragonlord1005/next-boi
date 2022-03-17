@@ -21,7 +21,7 @@ export default function Nav() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography varient="h6" component ="div">
+          <Typography varient="h6" component="div">
             <Link href="/about">
               About
             </Link>
