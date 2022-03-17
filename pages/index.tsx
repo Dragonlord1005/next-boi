@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Head>
-        <a> Hi</a>
+        <Nav />
       </Head>
 
       <main className={styles.main}>
@@ -32,10 +32,6 @@ const Home: NextPage = () => {
           </Link>
         </Button>
       </main>
-
-     <footer className={styles.footer}>
-        <Nav />
-      </footer>
     </div>
   )
 }
