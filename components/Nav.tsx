@@ -1,11 +1,11 @@
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import Link from 'next/link';
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";
+import Link from "next/link";
 
 export default function Nav() {
   return (
@@ -22,15 +22,11 @@ export default function Nav() {
             <MenuIcon />
           </IconButton>
           <Typography component="div" sx={{ mr: 1 }}>
-            <Link href="/">
-              Home
-            </Link>
+            <Link href="/">Home</Link>
           </Typography>
           <br />
           <Typography component="div" sx={{ mr: 1 }}>
-            <Link href="/about">
-              About
-            </Link>
+            <Link href="/about">About</Link>
           </Typography>
         </Toolbar>
       </AppBar>

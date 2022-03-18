@@ -1,30 +1,29 @@
-import type { NextPage } from 'next'
-import * as React from 'react';
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import '@fontsource/roboto/400.css';
-import Button from '@mui/material/Button';
-import Link from 'next/link';
-import Nav from '../components/Nav';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-
+import type { NextPage } from "next";
+import * as React from "react";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import "@fontsource/roboto/400.css";
+import Button from "@mui/material/Button";
+import Link from "next/link";
+import Nav from "../components/Nav";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
 
 const Home: NextPage = () => {
-  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
 
   const theme = React.useMemo(
     () =>
       createTheme({
         palette: {
-          mode: prefersDarkMode ? 'dark' : 'light',
+          mode: prefersDarkMode ? "dark" : "light",
         },
       }),
-    [prefersDarkMode],
+    [prefersDarkMode]
   );
-  
+
   return (
     <div className={styles.container}>
       <Head>
@@ -38,9 +37,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to my Blog
-        </h1>
+        <h1 className={styles.title}>Welcome to my Blog</h1>
         <br />
 
         <Button variant="contained">
@@ -50,7 +47,7 @@ const Home: NextPage = () => {
         </Button>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
