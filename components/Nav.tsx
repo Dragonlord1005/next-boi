@@ -3,8 +3,8 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
+{/*import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";*/}
 import Link from "next/link";
 
 export default function Nav() {
@@ -12,7 +12,7 @@ export default function Nav() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
+          {/*<IconButton
             size="large"
             edge="start"
             color="inherit"
@@ -20,7 +20,7 @@ export default function Nav() {
             sx={{ mr: 1 }}
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton>*/}
           <Typography component="div" sx={{ mr: 1.5 }}>
             <Link href="/">Home</Link>
           </Typography>
