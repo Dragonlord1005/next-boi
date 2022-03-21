@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   devIndicators: {
-    autoPrerender: true,
+    autoPrerender: false,
   },
 };
 
