@@ -23,13 +23,6 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to my Blog</h1>
-        <br />
-
-        <Button variant="contained">
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </Button>
       </main>
     </div>
   );
