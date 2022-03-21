@@ -28,7 +28,7 @@ export default function Nav() {
           </Typography>
           <br />
           <Typography component="div" sx={{ mr: 1.5 }}>
-            <Link href="/about">About</Link>
+            <Link prefetch={true} href="/about">About</Link>
           </Typography>
         </Toolbar>
       </AppBar>
