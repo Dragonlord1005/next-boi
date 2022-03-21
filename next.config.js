@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   devIndicators: {
     autoPrerender: true,
-  }
-}
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
