@@ -9,5 +9,4 @@ tsconfig.json
 next-env.d.ts
 additional.t.ds
 LICENSE
-.gitignore.
-.gitattributes
+*.json
