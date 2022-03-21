@@ -17,15 +17,15 @@ export default function Nav() {
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 2 }}
+            sx={{ mr: 1 }}
           >
             <MenuIcon />
           </IconButton>
-          <Typography component="div" sx={{ mr: 1 }}>
+          <Typography component="div" sx={{ mr: 1.5 }}>
             <Link href="/">Home</Link>
           </Typography>
           <br />
-          <Typography component="div" sx={{ mr: 1 }}>
+          <Typography component="div" sx={{ mr: 1.5 }}>
             <Link href="/about">About</Link>
           </Typography>
         </Toolbar>
