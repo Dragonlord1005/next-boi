@@ -1,0 +1,12 @@
+.next
+.github
+.vscode
+.node_modules
+.styles
+.public
+renovate.json
+tsconfig.json
+next-env.d.ts
+additional.t.ds
+LICENSE
+*.json
