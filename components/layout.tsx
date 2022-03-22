@@ -7,7 +7,7 @@ type Props = {
   children?: ReactNode
 }
 
-const Layout = ({ children, title = 'This is the default title' }: Props) => (
+const Layout = ({ children }: Props) => (
   <div>
     <Head>
       <Nav />
