@@ -30,6 +30,10 @@ export default function Nav() {
           <Typography component="div" sx={{ mr: 1.5 }}>
             <Link href="/about">About</Link>
           </Typography>
+          <br />
+          <Typography component="div" sx={{ mr: 1.5 }}>
+            <Link href="/posts">Blog Posts</Link>
+          </Typography>
         </Toolbar>
       </AppBar>
     </Box>
