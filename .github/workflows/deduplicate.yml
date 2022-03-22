@@ -24,10 +24,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - uses: bahmutov/npm-install@v1
 
       # Runs a single command using the runners shell
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.0.0
         
+      - name: Install Depedencies
+        run: yarn install
+        
       - name: Deduplicate
-        run: npx yarn-deduplicate --list --fail
+        run: yarn run yarn-deduplicate --list --fail
