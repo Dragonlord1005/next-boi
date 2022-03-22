@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import type { ReactElement } from 'react'
+import type { ReactElement } from "react";
 //import * as React from "react";
 import Head from "next/head";
 // import Image from "next/image";
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <meta name="description" content="A personal blog" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to my Blog</h1>
       </main>

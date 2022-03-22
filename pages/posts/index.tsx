@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import type { ReactElement } from 'react'
+import type { ReactElement } from "react";
 //import * as React from "react";
 import Head from "next/head";
 // import Image from "next/image";
@@ -17,12 +17,12 @@ const Blog: NextPage = () => {
           <meta name="description" content="Blog Posts" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        
+
         <main className={styles.main}>
           <h1 className={styles.title}>Blog Posts</h1>
           <br />
           <Button variant="contained">
-            <Link href='/posts/first-post'> First Post</Link>
+            <Link href="/posts/first-post"> First Post</Link>
           </Button>
         </main>
       </div>
