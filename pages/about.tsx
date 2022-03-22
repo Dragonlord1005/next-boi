@@ -21,7 +21,8 @@ const About: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>About</h1>
-        <a>This is a prject where my goal is to make a blog using only typescript and Next.js</a>
+        <a className={styles.description}>This is a prject where my goal is to make a blog using only typescript and Next.js</a>
+        <a className={styles.text}>So far its been quite a lot of work to make stuff look the way I want it to</a>
       </main>
     </div>
   );
