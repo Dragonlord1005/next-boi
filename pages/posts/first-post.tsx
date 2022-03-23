@@ -17,7 +17,8 @@ const FirstPost: NextPage = () => {
         <h2 className={styles.description}>3/23/22</h2>
         <a className={styles.text}>The experience has been fun but hard</a>
         <a className={styles.text}>
-          PLACEHOLDER
+          So far its been quite a lot of work to make stuff look the way I want
+          it to, but fun at the same time
         </a>
       </main>
     </div>

@@ -16,10 +16,6 @@ const About: NextPage = () => {
           This is a project where my goal is to make a blog using only
           typescript and Next.js
         </a>
-        <a className={styles.text}>
-          So far its been quite a lot of work to make stuff look the way I want
-          it to, but fun at the same time
-        </a>
       </main>
     </div>
   );
