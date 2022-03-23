@@ -2,7 +2,7 @@ language = "nix"
 run = "yarn dev"
 
 [nix]
-channel = "stable-21_11"
+channel = "unstable"
 
 [env]
 XDG_CONFIG_HOME = "/home/runner/.config"
