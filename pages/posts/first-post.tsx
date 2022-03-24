@@ -18,7 +18,7 @@ const FirstPost: NextPage = () => {
         <a className={styles.text}>The experience has been fun but hard</a>
         <a className={styles.text}>
           So far its been quite a lot of work to make stuff look the way I want
-          it to, but fun at the same time
+          it to, but fun at the same time. My next review will be a review of Next.js from a beginners perspective
         </a>
       </main>
     </div>
