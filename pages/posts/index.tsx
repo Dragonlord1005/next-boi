@@ -25,9 +25,9 @@ const Blog: NextPage = () => {
             <Link href="/posts/first-post"> First Post</Link>
           </Button>
           <br />
-          <Button variant="contained">
+          {/*<Button variant="contained">
             <Link href="/posts/next-review"> Next.js Review</Link>
-          </Button>
+          </Button*/}
         </main>
       </div>
     </>
