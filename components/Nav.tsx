@@ -42,8 +42,8 @@ export default function Nav() {
             <Link href='/about' prefetch={false}>
               <a
                 onMouseEnter={() => {
-            router.prefetch('/about')
-            console.log('prefetching /about!')
+            router.prefetch('/')
+            console.log('prefetching /!')
                 }}
               >
                 About
@@ -52,7 +52,16 @@ export default function Nav() {
           </Typography>
           <br />
           <Typography component="div" sx={{ mr: 1.5 }}>
-            <Link href="/posts">Blog Posts</Link>
+            <Link href="/posts" prefetch={false}>
+              <a
+                onMouseEnter={() => {
+            router.prefetch('/posts')
+            console.log('prefetching /posts!')
+                }}
+              >
+                Blog Posts
+              </a>
+            </Link>
           </Typography>
         </Toolbar>
       </AppBar>
