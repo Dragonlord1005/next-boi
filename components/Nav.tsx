@@ -8,10 +8,10 @@ import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";*/
 }
 import Link from "next/link";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 export default function Nav() {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -29,8 +29,8 @@ export default function Nav() {
             <Link href="/" prefetch={false}>
               <a
                 onMouseEnter={() => {
-            router.prefetch('/about')
-            console.log('prefetching /about!')
+                  router.prefetch("/about");
+                  console.log("prefetching /about!");
                 }}
               >
                 Home
@@ -39,11 +39,11 @@ export default function Nav() {
           </Typography>
           <br />
           <Typography component="div" sx={{ mr: 1.5 }}>
-            <Link href='/about' prefetch={false}>
+            <Link href="/about" prefetch={false}>
               <a
                 onMouseEnter={() => {
-            router.prefetch('/')
-            console.log('prefetching /!')
+                  router.prefetch("/");
+                  console.log("prefetching /!");
                 }}
               >
                 About
@@ -55,8 +55,8 @@ export default function Nav() {
             <Link href="/posts" prefetch={false}>
               <a
                 onMouseEnter={() => {
-            router.prefetch('/posts')
-            console.log('prefetching /posts!')
+                  router.prefetch("/posts");
+                  console.log("prefetching /posts!");
                 }}
               >
                 Blog Posts
