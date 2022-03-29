@@ -3,9 +3,12 @@
     "config:base"
   ],
   "semanticCommits": "enabled",
-  {
+  "packageRules": [
+    {
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "devDependencies (non-major)"
-  }
+      "groupName": "devDependencies (non-major)",
+      "groupSlug": "dev-dependencies"
+    }
+  ]
 }
