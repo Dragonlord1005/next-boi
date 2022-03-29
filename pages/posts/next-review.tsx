@@ -14,7 +14,7 @@ const NextReview: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>My Next.js review</h1>
-        <h2 className={styles.description}>3/26/22</h2>
+        <h2 className={styles.description}>4/1/22</h2>
       </main>
     </div>
   );
