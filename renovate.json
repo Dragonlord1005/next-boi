@@ -2,5 +2,10 @@
   "extends": [
     "config:base"
   ],
-  "semanticCommits": "enabled"
+  "semanticCommits": "enabled",
+  {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "devDependencies (non-major)"
+  }
 }
