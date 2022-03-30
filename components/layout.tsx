@@ -12,7 +12,6 @@ const Layout = ({ children }: Props) => (
   <div>
     <Head>
       <Nav />
-      <NavBar />
     </Head>
     {children}
   </div>
