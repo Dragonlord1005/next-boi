@@ -9,6 +9,7 @@ import {
   Transition,
 } from "@mantine/core";
 import { useBooleanToggle } from "@mantine/hooks";
+import Link from "next/link";
 
 const HEADER_HEIGHT = 60;
 
@@ -101,7 +102,8 @@ export default function Navbar({ links }: NavbarResponsiveProps) {
   const { classes, cx } = useStyles();
 
   const items = links.map((link) => (
-    <a
+    <Link href={link.link}>
+      <a
       key={link.label}
       href={link.link}
       className={cx(classes.link, {
@@ -114,7 +116,8 @@ export default function Navbar({ links }: NavbarResponsiveProps) {
       }}
     >
       {link.label}
-    </a>
+      </a>
+    </Link>
   ));
 
   return (
