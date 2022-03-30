@@ -81,9 +81,9 @@ interface HeaderResponsiveProps {
 }
 
 
-export default function NavBar({ links }: HeaderResponsiveProps) {
+export function NavBar({ links }: HeaderResponsiveProps) {
   const [opened, toggleOpened] = useBooleanToggle(false);
-  const [active, setActive] = useState(links.link);
+  const [active, setActive] = useState(links[0].link);
   const { classes, cx } = useStyles();
 
   const items = links.map((link) => (
