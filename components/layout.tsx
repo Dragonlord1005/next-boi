@@ -8,6 +8,7 @@ type Props = {
 const links = [
   { link: "/", label: "Home" },
   { link: "/about", label: "About" },
+  { link: "/posts", label: "Blog Posts" },
 ];
 const Layout = ({ children }: Props) => (
   <div>
