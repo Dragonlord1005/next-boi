@@ -23,7 +23,7 @@ export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
       withNormalizeCSS
       theme={{
         /** Put your mantine theme override here */
-        colorScheme: "light",
+        colorScheme: "dark",
       }}
     >
       <Layout>
