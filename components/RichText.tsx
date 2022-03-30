@@ -1,7 +1,7 @@
 // RichText.tsx in your components folder
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
 
-export default dynamic(() => import('@mantine/rte'), {
+export default dynamic(() => import("@mantine/rte"), {
   // Disable during server side rendering
   ssr: false,
 

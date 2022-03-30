@@ -5,7 +5,10 @@ type Props = {
   children?: ReactNode;
 };
 
-const links = [{ link: "/", label: "Home" }, { link: "/about", label: "About" }];
+const links = [
+  { link: "/", label: "Home" },
+  { link: "/about", label: "About" },
+];
 const Layout = ({ children }: Props) => (
   <div>
     <Navbar links={links} />

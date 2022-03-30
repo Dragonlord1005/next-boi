@@ -104,17 +104,17 @@ export default function Navbar({ links }: NavbarResponsiveProps) {
   const items = links.map((link) => (
     <Link href={link.link} key={link.label}>
       <a
-      //key={link.label}
-      className={cx(classes.link, {
-        [classes.linkActive]: active === link.link,
-      })}
-      onClick={(event) => {
-        //event.preventDefault();
-        setActive(link.link);
-        toggleOpened(false);
-      }}
-    >
-      {link.label}
+        //key={link.label}
+        className={cx(classes.link, {
+          [classes.linkActive]: active === link.link,
+        })}
+        onClick={(event) => {
+          //event.preventDefault();
+          setActive(link.link);
+          toggleOpened(false);
+        }}
+      >
+        {link.label}
       </a>
     </Link>
   ));
