@@ -9,5 +9,6 @@
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "devDependencies (non-major)"
     }
-  ]
+  ],
+  "baseBranches": ["main", "mantine"]
 }
