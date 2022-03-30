@@ -10,7 +10,6 @@ import {
 } from "@mantine/core";
 import { useBooleanToggle } from "@mantine/hooks";
 import Link from "next/link";
-import { Button } from '@mantine/core';
 
 const HEADER_HEIGHT = 60;
 
@@ -104,20 +103,20 @@ export default function Navbar({ links }: NavbarResponsiveProps) {
 
   const items = links.map((link) => (
     <Link href={link.link}>
-      <Button
+      <a
       key={link.label}
-      href={link.link}
+      
       className={cx(classes.link, {
         [classes.linkActive]: active === link.link,
       })}
       onClick={(event) => {
-        event.preventDefault();
+        //event.preventDefault();
         setActive(link.link);
         toggleOpened(false);
       }}
     >
       {link.label}
-      </Button>
+      </a>
     </Link>
   ));
 
