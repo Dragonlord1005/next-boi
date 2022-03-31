@@ -11,6 +11,10 @@ import {
 import { useBooleanToggle } from "@mantine/hooks";
 import Link from "next/link";
 
+/*
+* TODO: Make it so dark mode can save to cookies
+*/
+
 const HEADER_HEIGHT = 60;
 
 const useStyles = createStyles((theme) => ({
