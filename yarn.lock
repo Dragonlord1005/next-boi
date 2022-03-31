@@ -187,7 +187,7 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@mantine/core@^4.1.0":
+"@mantine/core@4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@mantine/core/-/core-4.1.0.tgz#282b0010c2636c42fea4ae2b9d507df17770cfd4"
   integrity sha512-uEHGssKveDgGHhbBrgVqp8o12m0oQGLBKH3D8bkrca1GB905ZHuj8CG+i/ojBhqdalfUwqcYGRpwwALtD+XfJg==
@@ -199,7 +199,7 @@
     react-popper "^2.2.5"
     react-textarea-autosize "^8.3.2"
 
-"@mantine/dates@^4.1.0":
+"@mantine/dates@4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-4.1.0.tgz#3f9c40dcae60c99d4727fc054ac8663059f12136"
   integrity sha512-kdKQ9PRGbYe1YhRlqWVUVGG7IKHjdIWMX3XhSFbWWLkfUxqSG4dhwNeAZIcbHXDZhFT9xIifFlBlDiN7JIOmtA==
@@ -208,24 +208,24 @@
     clsx "^1.1.1"
     react-popper "^2.2.5"
 
-"@mantine/hooks@^4.1.0":
+"@mantine/hooks@4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-4.1.0.tgz#93123eba4d651b8622526594e5fcc7f8544ca1c1"
   integrity sha512-bvVvHDDfYqdIxl7n+lBBwSIkcqInv6kK+fxvEfFBOUEzN6KbpJaPdaYXP788x64uFbA7AODQjdtOhk3tMyQA8Q==
 
-"@mantine/modals@^4.1.0":
+"@mantine/modals@4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@mantine/modals/-/modals-4.1.0.tgz#f86ca361c73362ef30b5e2bbb3b4cb6038af6425"
   integrity sha512-h7IhRg8w7BFOjm1T8ohHYke/CSYAwVDlMNfFXX8Sy0kB34xYD+TGg3Yt5lwC99UJOCCZIbNw7AsJ1SZHbDGKwg==
 
-"@mantine/next@^4.1.0":
+"@mantine/next@4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@mantine/next/-/next-4.1.0.tgz#86b7700fcb5a5463ef322fcdd327d32fc3086d20"
   integrity sha512-hTmzDgPBwQ+LKibE6CFaTJY19vAxYnA+4VlLfCubHercrrcbCwp8U4qFgpfYyxLFYRzirUTpf2AjcJ5zE2vxaw==
   dependencies:
     "@mantine/ssr" "4.1.0"
 
-"@mantine/prism@^4.1.0":
+"@mantine/prism@4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-4.1.0.tgz#c466f4a091c267735218f4b8cea80f717ae3f430"
   integrity sha512-iVUlQwKn5MKG6tSWPsUamQIKZh7dEzcSgXa3XdE0DjpTykioXduvtLELpd4RoV729Gjt3PJp4rZflWLHm/xyFA==
@@ -233,7 +233,7 @@
     clsx "^1.1.1"
     prism-react-renderer "^1.2.1"
 
-"@mantine/spotlight@^4.1.0":
+"@mantine/spotlight@4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@mantine/spotlight/-/spotlight-4.1.0.tgz#379206aaaec99177681dc80cc46b771d13b7be96"
   integrity sha512-oQpUde0yR66oLv4qy3njqWIzYmWa0rD2i0GaCL6eQWfXdHC3UVDHLeqe+6Akdr0SkR4oF9dUOGJO916FUUywnw==
@@ -1033,7 +1033,7 @@ damerau-levenshtein@^1.0.7:
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
 
-dayjs@^1.11.0:
+dayjs@1.11.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.0.tgz#009bf7ef2e2ea2d5db2e6583d2d39a4b5061e805"
   integrity sha512-JLC809s6Y948/FuCZPm5IX8rRhQwOiyMb2TfVVQEixG7P8Lm/gt5S7yoQZmC8x1UehI9Pb7sksEt4xx14m+7Ug==
