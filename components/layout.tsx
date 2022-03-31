@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import Navbar from "./Navbar/Navbar";
+import LightDark from './LightDark'
 
 type Props = {
   children?: ReactNode;
@@ -14,6 +15,7 @@ const Layout = ({ children }: Props) => (
   <div>
     <Navbar links={links} />
     {children}
+    <LightDark />
   </div>
 );
 
