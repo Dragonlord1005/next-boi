@@ -122,7 +122,7 @@ export default function Navbar({ links }: NavbarResponsiveProps) {
   return (
     <Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
       <Container className={classes.header}>
-        <a>hi</a>
+        <a>My Blog</a>
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>
