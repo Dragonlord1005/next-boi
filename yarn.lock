@@ -233,10 +233,10 @@
     clsx "^1.1.1"
     prism-react-renderer "^1.2.1"
 
-"@mantine/spotlight@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@mantine/spotlight/-/spotlight-4.1.0.tgz#379206aaaec99177681dc80cc46b771d13b7be96"
-  integrity sha512-oQpUde0yR66oLv4qy3njqWIzYmWa0rD2i0GaCL6eQWfXdHC3UVDHLeqe+6Akdr0SkR4oF9dUOGJO916FUUywnw==
+"@mantine/spotlight@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@mantine/spotlight/-/spotlight-4.1.1.tgz#fe969661defc40dc6b214b59b9827b6a67fe622d"
+  integrity sha512-cl9w7Lrp56lCWSc0Cq74ziV8m6ySYnvmpNV2Ms68UY2+hSmmdNhjo5jblxaJDxeA59guosF5RZeirYlobCnYTQ==
 
 "@mantine/ssr@4.1.1":
   version "4.1.1"
