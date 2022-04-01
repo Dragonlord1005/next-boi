@@ -27,7 +27,9 @@ export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
       <MantineProvider
         withGlobalStyles
         withNormalizeCSS
-        theme={{ colorScheme }}>
+        theme={{ colorScheme,
+                headings: { fontSize: '6rem'},
+               }}>
         <Layout>
           <Component {...pageProps} />
         </Layout>
