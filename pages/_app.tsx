@@ -18,7 +18,7 @@ type AppPropsWithLayout = AppProps & {
 };
 
 export default function MyApp(props: AppProps & { colorScheme: ColorScheme }) {
-  const { Component, pageProps } = props;
+  const { Component, pageProps }:AppPropsWithLayout = props;
   const getLayout = Component.getLayout ?? ((page) => page);
   //const { Component, pageProps } = props;
   const [colorScheme, setColorScheme] = useState<ColorScheme>(props.colorScheme);
