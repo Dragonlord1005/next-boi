@@ -1,11 +1,13 @@
 import "../styles/globals.css";
 import type { ReactElement, ReactNode } from "react";
+import { useState } from 'react';
 import { GetServerSidePropsContext } from 'next';
 import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import Layout from "../components/layout";
+import { getCookie, setCookies } from 'cookies-next';
 import { MantineProvider, ColorSchemeProvider, useMantineColorScheme, ColorScheme } from "@mantine/core";
-import { useState } from 'react';
+
 
 /*
 * TODO: Add cookie support for dark mode
@@ -19,10 +21,10 @@ type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout;
 };
 
-export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
-  // Use the layout defined at the page level, if available
+export default function MyApp(props: AppProps & { colorScheme: ColorScheme }, { Component, pageProps }: AppPropsWithLayout) {
   const getLayout = Component.getLayout ?? ((page) => page);
-  const [colorScheme, setColorScheme] = useState<ColorScheme>('light');
+  //const { Component, pageProps } = props;
+  const [colorScheme, setColorScheme] = useState<ColorScheme>(props.colorScheme);
   const toggleColorScheme = (value?: ColorScheme) =>
     setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'));
 
@@ -32,9 +34,7 @@ export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
       <MantineProvider
         withGlobalStyles
         withNormalizeCSS
-        theme={{ colorScheme,
-                headings: { fontSize: '6rem'},
-               }}>
+        theme={{ colorScheme }}>
         <Layout>
           <Component {...pageProps} />
         </Layout>
