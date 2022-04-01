@@ -7,6 +7,10 @@ import Layout from "../components/layout";
 import { MantineProvider, ColorSchemeProvider, useMantineColorScheme, ColorScheme } from "@mantine/core";
 import { useState } from 'react';
 
+/*
+* TODO: Add cookie support for dark mode
+*/
+
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
 };
