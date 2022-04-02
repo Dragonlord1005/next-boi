@@ -6,7 +6,6 @@ import { Button, createStyles, Title } from "@mantine/core";
 import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
-
   title: {
     //color: theme.white,
     fontSize: 75,
@@ -14,12 +13,12 @@ const useStyles = createStyles((theme) => ({
     lineHeight: 1.1,
     paddingBottom: 20,
 
-    [theme.fn.smallerThan('sm')]: {
+    [theme.fn.smallerThan("sm")]: {
       fontSize: 40,
       lineHeight: 1.2,
     },
 
-    [theme.fn.smallerThan('xs')]: {
+    [theme.fn.smallerThan("xs")]: {
       fontSize: 28,
       lineHeight: 1.3,
     },
@@ -29,28 +28,27 @@ const useStyles = createStyles((theme) => ({
     color: theme.white,
     maxWidth: 600,
 
-    [theme.fn.smallerThan('sm')]: {
-      maxWidth: '100%',
+    [theme.fn.smallerThan("sm")]: {
+      maxWidth: "100%",
       fontSize: theme.fontSizes.sm,
     },
   },
-  
+
   container: {
     height: 700,
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'flex-end',
-    alignItems: 'flex-start',
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    alignItems: "flex-start",
     paddingBottom: theme.spacing.xl * 6,
     zIndex: 1,
-    position: 'relative',
+    position: "relative",
 
-    [theme.fn.smallerThan('sm')]: {
+    [theme.fn.smallerThan("sm")]: {
       height: 500,
       paddingBottom: theme.spacing.xl * 3,
     },
   },
-
 }));
 
 const Blog: NextPage = () => {
@@ -65,7 +63,9 @@ const Blog: NextPage = () => {
         </Head>
 
         <main className={styles.main}>
-          <Title align="center" className={classes.title}>Blog Posts</Title>
+          <Title align="center" className={classes.title}>
+            Blog Posts
+          </Title>
           <Link href="/posts/first-post" passHref>
             <Button component="a">First Post</Button>
           </Link>

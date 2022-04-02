@@ -4,7 +4,6 @@ import styles from "./blog.module.css";
 import { createStyles, Title, Text, Container } from "@mantine/core";
 
 const useStyles = createStyles((theme) => ({
-
   title: {
     //color: theme.white,
     fontSize: 75,
@@ -12,12 +11,12 @@ const useStyles = createStyles((theme) => ({
     lineHeight: 1.1,
     paddingBottom: 14,
 
-    [theme.fn.smallerThan('sm')]: {
+    [theme.fn.smallerThan("sm")]: {
       fontSize: 40,
       lineHeight: 1.2,
     },
 
-    [theme.fn.smallerThan('xs')]: {
+    [theme.fn.smallerThan("xs")]: {
       fontSize: 28,
       lineHeight: 1.3,
     },
@@ -27,28 +26,27 @@ const useStyles = createStyles((theme) => ({
     color: theme.white,
     maxWidth: 600,
 
-    [theme.fn.smallerThan('sm')]: {
-      maxWidth: '100%',
+    [theme.fn.smallerThan("sm")]: {
+      maxWidth: "100%",
       fontSize: theme.fontSizes.sm,
     },
   },
-  
+
   container: {
     height: 700,
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'flex-end',
-    alignItems: 'flex-start',
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    alignItems: "flex-start",
     paddingBottom: theme.spacing.xl * 6,
     zIndex: 1,
-    position: 'relative',
+    position: "relative",
 
-    [theme.fn.smallerThan('sm')]: {
+    [theme.fn.smallerThan("sm")]: {
       height: 500,
       paddingBottom: theme.spacing.xl * 3,
     },
   },
-
 }));
 
 const Template: NextPage = () => {
@@ -62,7 +60,9 @@ const Template: NextPage = () => {
       </Head>
 
       <Container className={styles.main}>
-        <Title align="center" className={classes.title}>TEMPLATE</Title>
+        <Title align="center" className={classes.title}>
+          TEMPLATE
+        </Title>
         <Text className={classes.description}>Placeholder</Text>
       </Container>
     </div>
