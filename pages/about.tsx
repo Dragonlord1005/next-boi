@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import "@fontsource/roboto/400.css";
 
 const About: NextPage = () => {
   return (

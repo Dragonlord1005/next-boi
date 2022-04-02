@@ -1,11 +1,8 @@
 import type { NextPage } from "next";
 import type { ReactElement } from "react";
-//import * as React from "react";
 import Head from "next/head";
-// import Image from "next/image";
 import styles from "./blog.module.css";
-import "@fontsource/roboto/400.css";
-import Button from "@mui/material/Button";
+import { Button } from "@mantine/core";
 import Link from "next/link";
 
 const Blog: NextPage = () => {
@@ -21,9 +18,9 @@ const Blog: NextPage = () => {
         <main className={styles.main}>
           <h1 className={styles.title}>Blog Posts</h1>
           <br />
-          <Button variant="contained">
-            <Link href="/posts/first-post"> First Post</Link>
-          </Button>
+          <Link href="/posts/first-post" passHref>
+            <Button component="a">First Post</Button>
+          </Link>
           <br />
           {/*<Button variant="contained">
             <Link href="/posts/next-review"> Next.js Review</Link>

@@ -15,3 +15,10 @@ language = "nodejs"
   packageSearch = true
   guessImports = true
   enabledForHosting = false
+
+[languages.typescript]
+pattern = "**/{*.ts,*.js,*.tsx,*.jsx}"
+syntax = "typescript"
+
+[languages.typescript.languageServer]
+start = [ "typescript-language-server", "--stdio" ]

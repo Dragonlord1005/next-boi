@@ -1,18 +1,21 @@
 import React, { ReactNode } from "react";
-import Link from "next/link";
-import Head from "next/head";
-import Nav from "./Nav";
+import Navbar from "./Navbar/Navbar";
+import LightDark from "./LightDark";
 
 type Props = {
   children?: ReactNode;
 };
 
+const links = [
+  { link: "/", label: "Home" },
+  { link: "/about", label: "About" },
+  { link: "/posts", label: "Blog Posts" },
+];
 const Layout = ({ children }: Props) => (
   <div>
-    <Head>
-      <Nav />
-    </Head>
+    <Navbar links={links} />
     {children}
+    <LightDark />
   </div>
 );
 
