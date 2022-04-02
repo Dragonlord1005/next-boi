@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import type { ReactElement } from "react";
 import Head from "next/head";
 import styles from "./blog.module.css";
-import { Button } from '@mantine/core';
+import { Button } from "@mantine/core";
 import Link from "next/link";
 
 const Blog: NextPage = () => {

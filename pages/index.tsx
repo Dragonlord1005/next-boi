@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import type { ReactElement } from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Title } from '@mantine/core';
+import { Title } from "@mantine/core";
 
 const Home: NextPage = () => {
   return (
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Title align='center'>Welcome to my Blog</Title>
+        <Title align="center">Welcome to my Blog</Title>
       </main>
     </div>
   );
