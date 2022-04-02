@@ -10,5 +10,5 @@
       "groupName": "devDependencies (non-major)"
     }
   ],
-  "baseBranches": ["main", "mantine"]
+  "baseBranches": ["main"]
 }
