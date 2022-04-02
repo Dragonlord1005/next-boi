@@ -7,7 +7,6 @@ import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
   title: {
-    //color: theme.white,
     fontSize: 75,
     fontWeight: 900,
     lineHeight: 1.1,
