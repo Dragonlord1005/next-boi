@@ -5,9 +5,9 @@
   "semanticCommits": "enabled",
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "devDependencies (non-major)"
+      "groupName": "dependencies (non-major)"
     }
   ],
   "baseBranches": ["main"]
