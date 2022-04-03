@@ -22,7 +22,7 @@ type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout;
 };
 
-export default function MyApp(props: AppProps & { colorScheme: ColorScheme }) {
+export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps }: AppPropsWithLayout = props;
   const getLayout = Component.getLayout ?? ((page) => page);
   //const { Component, pageProps } = props;
@@ -58,7 +58,7 @@ export default function MyApp(props: AppProps & { colorScheme: ColorScheme }) {
   );
 }
 
-MyApp.getInitialProps = ({ ctx }: { ctx: GetServerSidePropsContext }) => ({
+App.getInitialProps = ({ ctx }: { ctx: GetServerSidePropsContext }) => ({
   // get color scheme from cookie
   colorScheme: getCookie("mantine-color-scheme", ctx) || "light",
 });
