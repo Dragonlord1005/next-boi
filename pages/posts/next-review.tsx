@@ -63,7 +63,7 @@ const NextReview: NextPage = () => {
         <Title align="center" className={classes.title}>
           Next Review
         </Title>
-        <Text>1/14/22</Text>
+        <Text>1/2/22</Text>
         <article>
           <Text>First the pros of NextJS</Text>
           <Text>
