@@ -67,8 +67,8 @@ const NextReview: NextPage = () => {
         <article>
           <Text>First the pros of NextJS</Text>
           <Text>
-            So first, its really easy to setup Second, its you dont have to
-            deal with routing Third, its easy to optimize
+            So first, its really easy to setup Second, its you dont have to deal
+            with routing Third, its easy to optimize
           </Text>
           <Text>The Cons</Text>
           <Text>
