@@ -12,7 +12,6 @@ import {
   useMantineColorScheme,
   ColorScheme,
 } from "@mantine/core";
-import Head from "next/head";
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
