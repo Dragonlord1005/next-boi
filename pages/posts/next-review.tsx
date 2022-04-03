@@ -65,7 +65,19 @@ const NextReview: NextPage = () => {
         </Title>
         <Text>1/14/22</Text>
         <article>
-          <Text>PLACEHOLDER</Text>
+          <Text>First the pros of NextJS</Text>
+          <Text>
+            So first, its really easy to setup
+            Second, it's you don't have to deal with routing
+            Third, it's easy to optimize
+          </Text>
+          <Text>The Cons</Text>
+          <Text>
+            Lame documentation
+            Bad premade components
+            Many more things
+          </Text>
+          <Text>This was pretty short but I tried my best, not really used to this sort of thing.</Text>
         </article>
       </Container>
     </div>
