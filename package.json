@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@mantine/core": "4.1.2",
-    "@mantine/dates": "4.1.1",
+    "@mantine/dates": "4.1.2",
     "@mantine/hooks": "4.1.2",
     "@mantine/modals": "4.1.1",
     "@mantine/next": "4.1.2",
