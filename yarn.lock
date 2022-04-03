@@ -208,10 +208,10 @@
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-4.1.2.tgz#7d9af7e505bdfb017a37181ed4061fa66e37cbae"
   integrity sha512-ccTD4q7jViYisizjydRkCZdiMrtbC+uxEsZHHjyy/adcK8zOix178bag53OKn5TIFFMH6dXHZmto0IZsVCY1vw==
 
-"@mantine/modals@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@mantine/modals/-/modals-4.1.1.tgz#bc1ac737e1bd588ae59e9823943b73a2f1321d6e"
-  integrity sha512-CLXD0GUbDJCJI0QwirIiaCICrJcQZhui0wUYHuEygLMcwgm1sI3TWXmvJ7hTiah2bEK15a1nwIso9Sl7vtE8XA==
+"@mantine/modals@4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@mantine/modals/-/modals-4.1.2.tgz#28470f6be953c9d23ccf9b654657964956c83d26"
+  integrity sha512-mJN+x2IBDPYyllvJaw3DhpDMnVt7CCa84jkWj0Ul5CxxeFa8hTGopkAKeJ+U0sk0WoP0AW1m2YYpJlQOSpkLqQ==
 
 "@mantine/next@4.1.2":
   version "4.1.2"
@@ -220,12 +220,11 @@
   dependencies:
     "@mantine/ssr" "4.1.2"
 
-"@mantine/prism@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-4.1.1.tgz#b8cb117e2a152a4da7369ac57674b03a724b4f3e"
-  integrity sha512-GiSRLRscy3B3/qLSAhpqLQMkOSpOhj9c4sYpifw6oKClTepo16ExaYYyQw1JJechXGaIF7eOWFbFbS+C7OamUw==
+"@mantine/prism@4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-4.1.2.tgz#4add6e795c874b0af09be2568bffa1350540e3d2"
+  integrity sha512-QgfkvgfYpBdcA0InsPu+MeN8DrnOEr4QZ4qRb95S2CS7V9qkE6sNOxh22HRaMItLtgPp+X6hETunScApUAQUIA==
   dependencies:
-    clsx "^1.1.1"
     prism-react-renderer "^1.2.1"
 
 "@mantine/spotlight@4.1.2":
