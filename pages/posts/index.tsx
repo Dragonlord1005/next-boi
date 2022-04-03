@@ -69,9 +69,9 @@ const Blog: NextPage = () => {
             <Button component="a">First Post</Button>
           </Link>
           <br />
-          {/*<Button variant="contained">
-            <Link href="/posts/next-review"> Next.js Review</Link>
-          </Button*/}
+          <Link href="/posts/next-review">
+            <Button component="a">Next Review</Button>
+          </Link>
         </main>
       </div>
     </>
