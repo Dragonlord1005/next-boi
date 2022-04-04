@@ -1,18 +1,14 @@
 module.exports = {
   stories: [
-    {
-      // 👇 The directory field sets the directory your stories
-      directory: "../components/Navbar",
-      // 👇 The titlePrefix field will generate automatic titles for your stories
-      titlePrefix: "Components",
-      // 👇 Storybook will load all files that contain the stories extensio
-      files: "*.stories.*",
-    },
+    //"../stories/**/*.stories.mdx",
+    //"../stories/**/*.stories.@(js|jsx|ts|tsx)",
+    "../components/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+    "@storybook/addon-docs",
   ],
   framework: "@storybook/react",
   features: {
