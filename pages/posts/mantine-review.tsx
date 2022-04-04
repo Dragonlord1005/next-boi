@@ -4,7 +4,6 @@ import styles from "./blog.module.css";
 import { createStyles, Title, Text, Container } from "@mantine/core";
 const useStyles = createStyles((theme) => ({
   title: {
-    //color: theme.white,
     fontSize: 75,
     fontWeight: 900,
     lineHeight: 1.1,
@@ -22,7 +21,6 @@ const useStyles = createStyles((theme) => ({
   },
 
   description: {
-    color: theme.white,
     maxWidth: 600,
 
     [theme.fn.smallerThan("sm")]: {
@@ -63,7 +61,7 @@ const MantineReview: NextPage = () => {
         <Title align="center" className={classes.title}>
           Mantine Review
         </Title>
-        <Text className={classes.description}>Placeholder</Text>
+        <Text className={classes.description}>Date not yet deccided</Text>
         <article>
           <Text>hi</Text>
         </article>
