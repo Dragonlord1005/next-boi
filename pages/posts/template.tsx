@@ -64,6 +64,9 @@ const Template: NextPage = () => {
           TEMPLATE
         </Title>
         <Text className={classes.description}>Placeholder</Text>
+        <article>
+          <a>hi</a>
+        </article>
       </Container>
     </div>
   );
