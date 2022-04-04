@@ -59,7 +59,10 @@ const About: NextPage = () => {
         <Title className={classes.title}>About</Title>
         <article>
           <Text>I am simple teenager learning to code</Text>
-          <Text>My goal of this is to create a blog using typescript, next, and react.</Text>
+          <Text>
+            My goal of this is to create a blog using typescript, next, and
+            react.
+          </Text>
         </article>
       </main>
     </div>
