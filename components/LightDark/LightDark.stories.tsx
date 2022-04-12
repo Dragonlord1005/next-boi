@@ -6,7 +6,7 @@ import LightDark from "./LightDark";
 
 export default {
   title: "LightDark",
-  component: Button,
-} as ComponentMeta<typeof Button>;
+  component: LightDark,
+} as ComponentMeta<typeof LightDark>;
 
-export const Primary: ComponentStory<typeof Button> = () => <LightDark></LightDark>;
+export const Primary: ComponentStory<typeof LightDark> = () => <LightDark></LightDark>;
