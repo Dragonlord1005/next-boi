@@ -8,3 +8,5 @@ export default {
   title: "LightDark",
   component: LightDark,
 } as ComponentMeta<typeof LightDark>;
+
+export const Primary: ComponentStory<typeof LightDark> = () => <LightDark></LightDark>;
