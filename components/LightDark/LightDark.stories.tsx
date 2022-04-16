@@ -9,4 +9,6 @@ export default {
   component: LightDark,
 } as ComponentMeta<typeof LightDark>;
 
-export const Primary: ComponentStory<typeof LightDark> = () => <LightDark></LightDark>;
+export const Primary: ComponentStory<typeof LightDark> = () => (
+  <LightDark></LightDark>
+);
