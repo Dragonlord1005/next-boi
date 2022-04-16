@@ -28,7 +28,7 @@
     "tabler-icons-react": "1.45.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.8",
+    "@babel/core": "7.17.9",
     "@storybook/addon-actions": "6.4.22",
     "@storybook/addon-docs": "6.4.22",
     "@storybook/addon-essentials": "6.4.22",
