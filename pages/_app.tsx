@@ -40,22 +40,18 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   };
 
   return (
-    <ColorSchemeProvider
-      colorScheme={colorScheme}
-      toggleColorScheme={toggleColorScheme}
-    >
-      <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
-        theme={{ colorScheme }}
+      <ColorSchemeProvider
+        colorScheme={colorScheme}
+        toggleColorScheme={toggleColorScheme}
       >
-        <Layout>
-          <React.Fragment>
-            <Component {...pageProps} />
-          </React.Fragment>
-        </Layout>
-      </MantineProvider>
-    </ColorSchemeProvider>
+        <MantineProvider
+          withGlobalStyles
+          withNormalizeCSS
+          theme={{ colorScheme }}
+        >
+          <Component {...pageProps} />
+        </MantineProvider>
+      </ColorSchemeProvider>
   );
 }
 
