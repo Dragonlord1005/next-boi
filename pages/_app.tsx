@@ -50,7 +50,9 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
         theme={{ colorScheme }}
       >
         <Layout>
-          <Component {...pageProps} />
+          <React.Fragment>
+            <Component {...pageProps} />
+          </React.Fragment>
         </Layout>
       </MantineProvider>
     </ColorSchemeProvider>
