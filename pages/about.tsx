@@ -1,8 +1,54 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { createStyles, Title, Text, Container } from "@mantine/core";
+const useStyles = createStyles((theme) => ({
+  title: {
+    fontSize: 75,
+    fontWeight: 900,
+    lineHeight: 1.1,
+    paddingBottom: 14,
+
+    [theme.fn.smallerThan("sm")]: {
+      fontSize: 40,
+      lineHeight: 1.2,
+    },
+
+    [theme.fn.smallerThan("xs")]: {
+      fontSize: 28,
+      lineHeight: 1.3,
+    },
+  },
+
+  description: {
+    maxWidth: 600,
+
+    [theme.fn.smallerThan("sm")]: {
+      maxWidth: "100%",
+      fontSize: theme.fontSizes.sm,
+    },
+  },
+
+  container: {
+    height: 700,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    alignItems: "flex-start",
+    paddingBottom: theme.spacing.xl * 6,
+    zIndex: 1,
+    position: "relative",
+
+    [theme.fn.smallerThan("sm")]: {
+      height: 500,
+      paddingBottom: theme.spacing.xl * 3,
+    },
+  },
+}));
 
 const About: NextPage = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const { classes } = useStyles();
   return (
     <div className={styles.container}>
       <Head>
@@ -10,11 +56,14 @@ const About: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>About</h1>
-        <a className={styles.description}>
-          This is a project where my goal is to make a blog using only
-          typescript and Next.js
-        </a>
+        <Title className={classes.title}>About</Title>
+        <article>
+          <Text>I am simple teenager learning to code</Text>
+          <Text>
+            My goal of this is to create a blog using typescript, next, and
+            react.
+          </Text>
+        </article>
       </main>
     </div>
   );

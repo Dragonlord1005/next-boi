@@ -24,7 +24,6 @@ const useStyles = createStyles((theme) => ({
   },
 
   description: {
-    color: theme.white,
     maxWidth: 600,
 
     [theme.fn.smallerThan("sm")]: {
@@ -71,6 +70,10 @@ const Blog: NextPage = () => {
           <br />
           <Link href="/posts/next-review" passHref>
             <Button component="a">Next Review</Button>
+          </Link>
+          <br />
+          <Link href="/posts/mantine-review" passHref>
+            <Button component="a">Mantine Review</Button>
           </Link>
         </main>
       </div>
