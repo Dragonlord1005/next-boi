@@ -73,15 +73,15 @@ const MantineReview: NextPage = () => {
         <Text className={classes.date}>5/2/22</Text>
         <article>
           <Text>Well hello there!</Text>
-          <Text>For this post I'm going to tell you how awesome Mantine is!</Text>
+          <Text>For this post I&apos;m going to tell you how awesome Mantine is!</Text>
           <Text>
             <ul>
               <li><Text>First it has great support for next.js with minor configuration changes.</Text></li>
               <li><Text>Second, it looks awesome!</Text></li>
               <li><Text>Third, the documentaton is AWESOME!</Text></li>
               <li><Text>Now the downsides...</Text></li>
-              <li><Text>First, the component libraries documentation sucks, I was trying to make the awesome navbar you see above, and I got the code from there component site, but I didn&apos;t realize you had to provide arguments, so I made an issue request asking for help, and they basically said no. I was prett annoyed because I hadn't been able to figure it out, the only way I managed to eventually figure it out was because of replits hacker plan where it can let you use ai to explain code, and then I eventually figured it out right after I did that. It was annoying because it would've taken a short amount of time to say, "Hey! Just provide the arguments in the html when calling it!" It would've been that easy, and they didn't.</Text></li>
-              <li><Text>Second, some of their additional modules documentation si poor, I wanted to use rte which they provide, and thought it would be super fast and super easy, NOPE! didn't work at all. I couldn't figure out how to actually save the data, who knows, maybe I'm stupid, but I was annoyed by that.</Text></li>
+              <li><Text>First, the component libraries documentation sucks, I was trying to make the awesome navbar you see above, and I got the code from there component site, but I didn&apos;t realize you had to provide arguments, so I made an issue request asking for help, and they basically said no. I was pretty annoyed because I hadn&apos;t been able to figure it out, the only way I managed to eventually figure it out was because of replits hacker plan where it can let you use ai to explain code, and then I eventually figured it out right after I did that. It was annoying because it would&aposve taken a short amount of time to say, &quot;Hey! Just provide the arguments in the html when calling it!&quot; It would&apos;ve been that easy, and they didn&apos;t.</Text></li>
+              <li><Text>Second, some of their additional modules documentation is poor, I wanted to use rte which they provide, and thought it would be super fast and super easy, NOPE! didn&apos;t work at all. I couldn&apos;t figure out how to actually save the data, who knows, maybe I&apos;m stupid, but I was annoyed by that.</Text></li>
             </ul>
           </Text>
           <Text>That concludes this article! thanks for listening to me rant.</Text>
