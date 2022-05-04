@@ -70,7 +70,7 @@ const MantineReview: NextPage = () => {
         <Title align="center" className={classes.title}>
           Mantine Review
         </Title>
-        <Text className={classes.date}>5/2/22</Text>
+        <Text className={classes.date}>5/4/22</Text>
         <article>
           <Text>Well hello there!</Text>
           <Text>For this post I&apos;m going to tell you how awesome Mantine is!</Text>
