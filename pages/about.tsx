@@ -47,7 +47,6 @@ const useStyles = createStyles((theme) => ({
 }));
 
 const About: NextPage = () => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { classes } = useStyles();
   return (
     <div className={styles.container}>
@@ -62,6 +61,10 @@ const About: NextPage = () => {
           <Text>
             My goal of this is to create a blog using typescript, next, and
             react.
+          </Text>
+          <Text>
+            I should probably end up updating this has I do want to make an
+            actual blog and so far it&apos;s just talking about the project
           </Text>
         </article>
       </main>
