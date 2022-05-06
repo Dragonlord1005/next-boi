@@ -46,6 +46,7 @@ export default function LightDark() {
           checked={colorScheme === "dark"}
           onChange={() => toggleColorScheme()}
           size="md"
+          aria-label="Light/Dark Mode toggle"
         />
       </div>
     </Group>
