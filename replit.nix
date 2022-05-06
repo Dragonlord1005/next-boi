@@ -5,4 +5,6 @@
         pkgs.yarn
         pkgs.replitPackages.jest
 	];
+    pkgs.callPackage ./yarn-project.nix { } { src = ./.; }
 }
+
