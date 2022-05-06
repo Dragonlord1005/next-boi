@@ -1,8 +1,8 @@
 import React, { ReactNode } from "react";
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 
-const LightDark = dynamic(() => import('./LightDark/LightDark'));
-const Navbar = dynamic(() => import('./Navbar/Navbar'));
+const LightDark = dynamic(() => import("./LightDark/LightDark"));
+const Navbar = dynamic(() => import("./Navbar/Navbar"));
 
 type Props = {
   children?: ReactNode;
