@@ -50,8 +50,5 @@
     "@types/react": "<18.0.0",
     "@types/react-dom": "17.0.16"
   },
-  "installConfig": {
-    "pnp": true
-  },
   "packageManager": "yarn@3.2.0"
 }
