@@ -4,6 +4,6 @@
         pkgs.nodePackages.typescript-language-server
         pkgs.yarn
         pkgs.replitPackages.jest
-        pkgs.pnpm
+        pkgs.nodePackages.pnpm
 	];
 }
