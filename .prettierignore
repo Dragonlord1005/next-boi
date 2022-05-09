@@ -11,3 +11,5 @@ additional.t.ds
 LICENSE
 *.json
 *.md
+.yarn
+.pnp.*
