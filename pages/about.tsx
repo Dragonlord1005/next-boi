@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
+import Joe from "../public/Joe.jpg";
 import { createStyles, Title, Text, Container } from "@mantine/core";
 const useStyles = createStyles((theme) => ({
   title: {
@@ -57,6 +59,7 @@ const About: NextPage = () => {
       <main className={styles.main}>
         <Title className={classes.title}>About</Title>
         <article>
+          <Image src={Joe} alt="Derpy picture"></Image>
           <Text>I am simple teenager learning to code</Text>
           <Text>
             My goal of this is to create a blog using typescript, next, and
