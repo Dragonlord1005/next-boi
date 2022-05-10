@@ -10763,7 +10763,7 @@ __metadata:
     prettier: 2.6.2
     react: 17.0.2
     react-dom: 17.0.2
-    tabler-icons-react: 1.47.0
+    tabler-icons-react: 1.48.0
     typescript: 4.6.4
   languageName: unknown
   linkType: soft
@@ -13726,12 +13726,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tabler-icons-react@npm:1.47.0":
-  version: 1.47.0
-  resolution: "tabler-icons-react@npm:1.47.0"
+"tabler-icons-react@npm:1.48.0":
+  version: 1.48.0
+  resolution: "tabler-icons-react@npm:1.48.0"
   peerDependencies:
     react: ">= 16.8.0"
-  checksum: 9bac720a28d80e871926a6dd92950b8c2c090b5796d0c46f92e91c9bf9860126c7671c6ed460d0edd2030aae4e5b5f189b9b8688b48bd36325a069858ccb5597
+  checksum: 57731ea686bf76920f898d0742e244212775a54caa5f9b092a37f02a7126b8f75d148e40c7c793116eb56045047cb0c70fbace81b1a61473205be3e8e243c638
   languageName: node
   linkType: hard
 
