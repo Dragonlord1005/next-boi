@@ -1,5 +1,6 @@
 language = "nix"
 run = "yarn dev"
+entrypoint = "pages/index.tsx"
 
 [nix]
 channel = "unstable"
