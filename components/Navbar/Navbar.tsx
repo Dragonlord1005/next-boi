@@ -1,151 +1,46 @@
-import React, { useState } from "react";
-import {
-  createStyles,
-  Header,
-  Container,
-  Group,
-  Burger,
-  Paper,
-  Transition,
-} from "@mantine/core";
-import { useBooleanToggle } from "@mantine/hooks";
 import Link from "next/link";
 
-/*
- * TODO: Make it so dark mode can save to cookies
- */
-
-const HEADER_HEIGHT = 60;
-
-const useStyles = createStyles((theme) => ({
-  root: {
-    position: "relative",
-    zIndex: 1,
-  },
-
-  dropdown: {
-    position: "absolute",
-    top: HEADER_HEIGHT,
-    left: 0,
-    right: 0,
-    zIndex: 0,
-    borderTopRightRadius: 0,
-    borderTopLeftRadius: 0,
-    borderTopWidth: 0,
-    overflow: "hidden",
-
-    [theme.fn.largerThan("sm")]: {
-      display: "none",
-    },
-  },
-
-  header: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    height: "100%",
-  },
-
-  links: {
-    [theme.fn.smallerThan("sm")]: {
-      display: "none",
-    },
-  },
-
-  burger: {
-    [theme.fn.largerThan("sm")]: {
-      display: "none",
-    },
-  },
-
-  link: {
-    display: "block",
-    lineHeight: 1,
-    padding: "8px 12px",
-    borderRadius: theme.radius.sm,
-    textDecoration: "none",
-    color:
-      theme.colorScheme === "dark"
-        ? theme.colors.dark[0]
-        : theme.colors.gray[7],
-    fontSize: theme.fontSizes.sm,
-    fontWeight: 500,
-
-    "&:hover": {
-      backgroundColor:
-        theme.colorScheme === "dark"
-          ? theme.colors.dark[6]
-          : theme.colors.gray[0],
-    },
-
-    [theme.fn.smallerThan("sm")]: {
-      borderRadius: 0,
-      padding: theme.spacing.md,
-    },
-  },
-
-  linkActive: {
-    "&, &:hover": {
-      backgroundColor:
-        theme.colorScheme === "dark"
-          ? theme.fn.rgba(theme.colors[theme.primaryColor][9], 0.25)
-          : theme.colors[theme.primaryColor][0],
-      color:
-        theme.colors[theme.primaryColor][theme.colorScheme === "dark" ? 3 : 7],
-    },
-  },
-}));
-
-interface NavbarResponsiveProps {
-  links: { link: string; label: string }[];
-}
-
-export default function Navbar({ links }: NavbarResponsiveProps) {
-  const [opened, toggleOpened] = useBooleanToggle(false);
-  const [active, setActive] = useState(links[0].link);
-  const { classes, cx } = useStyles();
-
-  const items = links.map((link) => (
-    <Link href={link.link} key={link.label}>
-      <a
-        //key={link.label}
-        className={cx(classes.link, {
-          [classes.linkActive]: active === link.link,
-        })}
-        onClick={(event) => {
-          //event.preventDefault();
-          setActive(link.link);
-          toggleOpened(false);
-        }}
-      >
-        {link.label}
-      </a>
-    </Link>
-  ));
-
+export default function Navbar() {
   return (
-    <Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
-      <Container className={classes.header}>
-        <a>My Blog</a>
-        <Group spacing={5} className={classes.links}>
-          {items}
-        </Group>
-
-        <Burger
-          opened={opened}
-          onClick={() => toggleOpened()}
-          className={classes.burger}
-          size="sm"
-        />
-
-        <Transition transition="pop-top-right" duration={200} mounted={opened}>
-          {(styles) => (
-            <Paper className={classes.dropdown} withBorder style={styles}>
-              {items}
-            </Paper>
-          )}
-        </Transition>
-      </Container>
-    </Header>
+    <div className="navbar bg-base-100">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabindex="0" className="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <Link href="/">Homepage</Link>
+            </li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <Link href="/posts">Posts</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="navbar-center">
+        <a className="btn btn-ghost normal-case text-xl">Next-boi</a>
+      </div>
+      <div className="navbar-end"></div>
+    </div>
   );
 }
