@@ -176,7 +176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:^1.6.1":
+"@headlessui/react@npm:1.6.1":
   version: 1.6.1
   resolution: "@headlessui/react@npm:1.6.1"
   peerDependencies:
@@ -963,7 +963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.7":
+"autoprefixer@npm:10.4.7":
   version: 10.4.7
   resolution: "autoprefixer@npm:10.4.7"
   dependencies:
@@ -2894,7 +2894,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "next-boi@workspace:."
   dependencies:
-    "@headlessui/react": ^1.6.1
+    "@headlessui/react": 1.6.1
     "@mantine/core": 4.2.4
     "@mantine/dates": 4.2.4
     "@mantine/hooks": 4.2.4
@@ -2905,19 +2905,19 @@ __metadata:
     "@types/node": 17.0.24
     "@types/react": 17.0.45
     "@types/react-dom": 17.0.16
-    autoprefixer: ^10.4.7
+    autoprefixer: 10.4.7
     cookies-next: 2.0.4
     dayjs: 1.11.2
     eslint: 8.15.0
     eslint-config-next: 12.1.6
     eslint-config-prettier: 8.5.0
     next: 12.1.6
-    postcss: ^8.4.13
+    postcss: 8.4.13
     prettier: 2.6.2
     react: 17.0.2
     react-dom: 17.0.2
     tabler-icons-react: 1.48.0
-    tailwindcss: ^3.0.24
+    tailwindcss: 3.0.24
     typescript: 4.6.4
   languageName: unknown
   linkType: soft
@@ -3312,6 +3312,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:8.4.13, postcss@npm:^8.4.12":
+  version: 8.4.13
+  resolution: "postcss@npm:8.4.13"
+  dependencies:
+    nanoid: ^3.3.3
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 514fb3552805a5d039a2d6b4df3e73f657001716ca93c0d57e6067b0473abdea70276d80afc96005c9aaff82ed5d98062bd97724d3f47ca400fba0b5e9e436ed
+  languageName: node
+  linkType: hard
+
 "postcss@npm:8.4.5":
   version: 8.4.5
   resolution: "postcss@npm:8.4.5"
@@ -3320,17 +3331,6 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.1
   checksum: b78abdd89c10f7b48f4bdcd376104a19d6e9c7495ab521729bdb3df315af6c211360e9f06887ad3bc0ab0f61a04b91d68ea11462997c79cced58b9ccd66fac07
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.4.12, postcss@npm:^8.4.13":
-  version: 8.4.13
-  resolution: "postcss@npm:8.4.13"
-  dependencies:
-    nanoid: ^3.3.3
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: 514fb3552805a5d039a2d6b4df3e73f657001716ca93c0d57e6067b0473abdea70276d80afc96005c9aaff82ed5d98062bd97724d3f47ca400fba0b5e9e436ed
   languageName: node
   linkType: hard
 
@@ -3949,7 +3949,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.0.24":
+"tailwindcss@npm:3.0.24":
   version: 3.0.24
   resolution: "tailwindcss@npm:3.0.24"
   dependencies:
