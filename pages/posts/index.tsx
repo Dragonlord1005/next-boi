@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./blog.module.css";
 import Link from "next/link";
-import { Button } from "react-daisyui"
+import { Button } from "react-daisyui";
 
 const Blog: NextPage = () => {
   return (
