@@ -3,9 +3,6 @@ import Head from "next/head";
 import styles from "./blog.module.css";
 import Link from "next/link";
 
-
-
-
 const Blog: NextPage = () => {
   return (
     <>
@@ -17,19 +14,23 @@ const Blog: NextPage = () => {
         </Head>
 
         <main className={styles.main}>
-          <h1 className={styles.title}>
-            Blog Posts
-          </h1>
+          <h1 className={styles.title}>Blog Posts</h1>
           <Link href="/posts/first-post" passHref>
-            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">First Post</button>
+            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
+              First Post
+            </button>
           </Link>
           <br />
           <Link href="/posts/next-review" passHref>
-            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Next Review</button>
+            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
+              Next Review
+            </button>
           </Link>
           <br />
           <Link href="/posts/mantine-review" passHref>
-            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Mantine Review</button>
+            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
+              Mantine Review
+            </button>
           </Link>
         </main>
       </div>

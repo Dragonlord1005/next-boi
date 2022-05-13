@@ -20,8 +20,8 @@ export default function App(props: AppProps) {
   //const { Component, pageProps } = props;
 
   return (
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   );
 }
