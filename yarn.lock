@@ -610,7 +610,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/typography@npm:^0.5.2":
+"@tailwindcss/typography@npm:0.5.2":
   version: 0.5.2
   resolution: "@tailwindcss/typography@npm:0.5.2"
   dependencies:
@@ -692,7 +692,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tailwindcss@npm:^3.0.10":
+"@types/tailwindcss@npm:3.0.10":
   version: 3.0.10
   resolution: "@types/tailwindcss@npm:3.0.10"
   checksum: 4394244b71e1ce64f5e0cc2c5f91c34bea07a77441886cb6f6ea70a91756cf05a0a908241c1d0b377a44ecc52f83364a6253179f9e4b955015047e26a650479c
@@ -1318,7 +1318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:^2.14.3":
+"daisyui@npm:2.14.3":
   version: 2.14.3
   resolution: "daisyui@npm:2.14.3"
   dependencies:
@@ -2984,14 +2984,14 @@ __metadata:
     "@mantine/next": 4.2.4
     "@mantine/prism": 4.2.4
     "@mantine/spotlight": 4.2.4
-    "@tailwindcss/typography": ^0.5.2
+    "@tailwindcss/typography": 0.5.2
     "@types/node": 17.0.24
     "@types/react": 17.0.45
     "@types/react-dom": 17.0.17
-    "@types/tailwindcss": ^3.0.10
+    "@types/tailwindcss": 3.0.10
     autoprefixer: 10.4.7
     cookies-next: 2.0.4
-    daisyui: ^2.14.3
+    daisyui: 2.14.3
     dayjs: 1.11.2
     eslint: 8.15.0
     eslint-config-next: 12.1.6
@@ -3000,7 +3000,7 @@ __metadata:
     postcss: 8.4.13
     prettier: 2.6.2
     react: 17.0.2
-    react-daisyui: ^2.0.1
+    react-daisyui: 2.0.1
     react-dom: 17.0.2
     tabler-icons-react: 1.48.0
     tailwindcss: 3.0.24
@@ -3501,7 +3501,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-daisyui@npm:^2.0.1":
+"react-daisyui@npm:2.0.1":
   version: 2.0.1
   resolution: "react-daisyui@npm:2.0.1"
   peerDependencies:
