@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "codiga.vscode-plugin",
-        "formulahendry.auto-rename-tag"
+        "formulahendry.auto-rename-tag",
+        "bradlc.vscode-tailwindcss"
     ]
 }
