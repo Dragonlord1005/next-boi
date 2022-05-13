@@ -176,16 +176,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@headlessui/react@npm:1.6.1"
-  peerDependencies:
-    react: ^16 || ^17 || ^18
-    react-dom: ^16 || ^17 || ^18
-  checksum: e69ac75b71dae4960790ca985a4b1eff4ba0e4a7c9b9d31791a0a0ae618dc125b7decd8801d530b017de02b90150884eb17c1c3dedcf42afc2b42f137e17c870
-  languageName: node
-  linkType: hard
-
 "@humanwhocodes/config-array@npm:^0.9.2":
   version: 0.9.5
   resolution: "@humanwhocodes/config-array@npm:0.9.5"
@@ -2987,7 +2977,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "next-boi@workspace:."
   dependencies:
-    "@headlessui/react": 1.6.1
     "@mantine/core": 4.2.4
     "@mantine/dates": 4.2.4
     "@mantine/hooks": 4.2.4
