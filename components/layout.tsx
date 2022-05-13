@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import dynamic from "next/dynamic";
 
-const Navbar = dynamic(() => import("./Navbar/Navbar"));
+const Navbar = dynamic(() => import("./Navbar/NavBar"));
 
 type Props = {
   children?: ReactNode;
