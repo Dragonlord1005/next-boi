@@ -3000,6 +3000,7 @@ __metadata:
     postcss: 8.4.13
     prettier: 2.6.2
     react: 17.0.2
+    react-daisyui: ^2.0.1
     react-dom: 17.0.2
     tabler-icons-react: 1.48.0
     tailwindcss: 3.0.24
@@ -3497,6 +3498,18 @@ __metadata:
   version: 5.1.1
   resolution: "quick-lru@npm:5.1.1"
   checksum: a516faa25574be7947969883e6068dbe4aa19e8ef8e8e0fd96cddd6d36485e9106d85c0041a27153286b0770b381328f4072aa40d3b18a19f5f7d2b78b94b5ed
+  languageName: node
+  linkType: hard
+
+"react-daisyui@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "react-daisyui@npm:2.0.1"
+  peerDependencies:
+    daisyui: ^2.14.0
+    react: ">=16"
+    react-dom: ">=16"
+    tailwindcss: ^3.0.23
+  checksum: 222a6cc99f5869265c381902c3fff885292e642503a217306f2f62a0271724dc73dcfd82371a0cf17c9494fcb10a04f72d9b176dccf790e33019ea075fdf4ff5
   languageName: node
   linkType: hard
 

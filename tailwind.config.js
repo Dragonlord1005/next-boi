@@ -6,5 +6,10 @@ module.exports = {
   theme: {
     extend: {},
   },
+  safelist: [
+    {
+      pattern: /./
+    },
+  ],
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
