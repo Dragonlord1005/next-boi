@@ -17,7 +17,7 @@ const Blog: NextPage = () => {
         </Head>
 
         <main className={styles.main}>
-          <h1 align="center" className={styles.title}>
+          <h1 className={styles.title}>
             Blog Posts
           </h1>
           <Link href="/posts/first-post" passHref>
