@@ -8,7 +8,7 @@ module.exports = {
   },
   safelist: [
     {
-      pattern: /./
+      pattern: /./,
     },
   ],
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
