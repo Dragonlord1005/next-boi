@@ -40,12 +40,12 @@ export default function NavBar() {
             </Menu>
           </Dropdown>
         </Navbar.Start>
-        <Navbar.Center className="px-2 mx-2">
+        <Navbar.Center>
           <Link href="/" passHref>
             <Button className="btn-ghost normal-case text-xl">Next-boi</Button>
           </Link>
         </Navbar.Center>
-        <Navbar.End></Navbar.End>
+        
       </Navbar>
     </>
   );
