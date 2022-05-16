@@ -16,7 +16,7 @@ const About: NextPage = () => {
         <article>
           <Image src={Joe} alt="Derpy picture"></Image>
           <br />
-          <a>I am simple teenager learning to code</a>
+          <a>I am simple teenager learning to code. </a>
           <a>
             My goal of this is to create a blog using typescript, next, and
             react.
