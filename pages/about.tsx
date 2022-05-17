@@ -59,7 +59,7 @@ const About: NextPage = () => {
       <main className={styles.main}>
         <Title className={classes.title}>About</Title>
         <article>
-          <Image src={Joe} alt="Derpy picture"></Image>
+          <Image src={Joe} alt="Derpy picture" placeholder="blur"></Image>
           <Text>I am simple teenager learning to code</Text>
           <Text>
             My goal of this is to create a blog using typescript, next, and
