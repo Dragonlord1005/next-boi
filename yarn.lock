@@ -679,6 +679,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/tailwindcss@npm:^3.0.10":
+  version: 3.0.10
+  resolution: "@types/tailwindcss@npm:3.0.10"
+  checksum: 4394244b71e1ce64f5e0cc2c5f91c34bea07a77441886cb6f6ea70a91756cf05a0a908241c1d0b377a44ecc52f83364a6253179f9e4b955015047e26a650479c
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/parser@npm:^5.21.0":
   version: 5.23.0
   resolution: "@typescript-eslint/parser@npm:5.23.0"
@@ -2907,6 +2914,7 @@ __metadata:
     "@types/node": 17.0.24
     "@types/react": 18.0.9
     "@types/react-dom": 18.0.4
+    "@types/tailwindcss": ^3.0.10
     autoprefixer: 10.4.7
     cookies-next: 2.0.4
     dayjs: 1.11.2
