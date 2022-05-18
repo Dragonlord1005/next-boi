@@ -65,15 +65,21 @@ const Blog: NextPage = () => {
             Blog Posts
           </Title>
           <Link href="/posts/first-post" passHref>
-            <Button component="a" className="bg-blue-700">First Post</Button>
+            <Button component="a" className="bg-blue-700">
+              First Post
+            </Button>
           </Link>
           <br />
           <Link href="/posts/next-review" passHref>
-            <Button component="a" className="bg-blue-700">Next Review</Button>
+            <Button component="a" className="bg-blue-700">
+              Next Review
+            </Button>
           </Link>
           <br />
           <Link href="/posts/mantine-review" passHref>
-            <Button component="a" className="bg-blue-700">Mantine Review</Button>
+            <Button component="a" className="bg-blue-700">
+              Mantine Review
+            </Button>
           </Link>
         </main>
       </div>
