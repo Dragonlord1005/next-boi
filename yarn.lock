@@ -661,7 +661,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.0.9":
+"@types/react@npm:*, @types/react@npm:18.0.9":
   version: 18.0.9
   resolution: "@types/react@npm:18.0.9"
   dependencies:

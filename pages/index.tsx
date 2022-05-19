@@ -1,12 +1,10 @@
 import type { NextPage } from "next";
-//import type { ReactElement } from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { createStyles, Title } from "@mantine/core";
 
 const useStyles = createStyles((theme) => ({
   title: {
-    //color: theme.white,
     fontSize: 100,
     fontWeight: 900,
     lineHeight: 1.1,
@@ -32,7 +30,6 @@ const Home: NextPage = () => {
         <meta name="description" content="A personal blog" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
         <Title align="center" className={classes.title}>
           Welcome to my Blog
