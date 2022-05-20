@@ -19,5 +19,5 @@
     "strictNullChecks": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "additional.d.ts", "components/**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", ".yarn/cache"]
 }

@@ -1,5 +1,5 @@
 language = "nix"
-run = "yarn dev"
+run = "yarn run dev"
 entrypoint = "pages/index.tsx"
 
 [nix]
