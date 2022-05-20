@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import dynamic from "next/dynamic";
 
 const LightDark = dynamic(() => import("./LightDark/LightDark"));

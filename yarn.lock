@@ -645,6 +645,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/pnpapi@npm:^0":
+  version: 0.0.2
+  resolution: "@types/pnpapi@npm:0.0.2"
+  checksum: b58ec37cfaebe99ca7d1fa3200c57d8f8d51da58f6152c1b8ef6d03e00fa8595a937ae36234a0ff6f52306740bf4ddfd2633d62d5693eb9af41edb6181ef3d02
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.5
   resolution: "@types/prop-types@npm:15.7.5"
@@ -661,14 +668,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.0.4":
-  version: 18.0.4
-  resolution: "@types/react@npm:18.0.4"
+"@types/react@npm:18.0.9":
+  version: 18.0.9
+  resolution: "@types/react@npm:18.0.9"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: a82ccb4b386a8be9edd0381093ebbccfb0cca94fdb772fd0b0221421efbdf304d76641a218d99b1be62bd2e037e25316a7203e7065e0fd8eca14ab568d4af307
+  checksum: 162364dad716d9017ee34aabf2ea37499709ebbdef70392ae1b39225985971e1a46f121efb9c5c7da92144ee1d96d4525df806a7c1c03a5db7fd31dd034ddc7a
   languageName: node
   linkType: hard
 
@@ -2921,6 +2928,7 @@ __metadata:
     "@mantine/prism": 4.2.5
     "@mantine/spotlight": 4.2.5
     "@types/node": 17.0.24
+    "@types/pnpapi": ^0
     "@types/react": 18.0.9
     "@types/react-dom": 18.0.4
     "@types/tailwindcss": 3.0.10
@@ -2932,6 +2940,7 @@ __metadata:
     eslint-config-next: 12.1.6
     eslint-config-prettier: 8.5.0
     next: 12.1.6
+    pnpapi: ^0.0.0
     postcss: 8.4.14
     prettier: 2.6.2
     react: 18.1.0
@@ -3272,6 +3281,13 @@ __metadata:
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 050c865ce81119c4822c45d3c84f1ced46f93a0126febae20737bd05ca20589c564d6e9226977df859ed5e03dc73f02584a2b0faad36e896936238238b0446cf
+  languageName: node
+  linkType: hard
+
+"pnpapi@npm:^0.0.0":
+  version: 0.0.0
+  resolution: "pnpapi@npm:0.0.0"
+  checksum: 9b8ce695cb5dcd904f2602a5e943d5808a58818e5c5dcf1c9b6dde3610b0f9070b9bc6758621c39d2cc954a1305d6256d925f176e17f00cc30779a6350d7a9f7
   languageName: node
   linkType: hard
 
