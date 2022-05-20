@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Joe from "../public/Joe.jpg";
 import { createStyles, Title, Text, Container } from "@mantine/core";
+
 const useStyles = createStyles((theme) => ({
   title: {
     fontSize: 75,

@@ -661,14 +661,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.9":
-  version: 18.0.9
-  resolution: "@types/react@npm:18.0.9"
+"@types/react@npm:18.0.4":
+  version: 18.0.4
+  resolution: "@types/react@npm:18.0.4"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 162364dad716d9017ee34aabf2ea37499709ebbdef70392ae1b39225985971e1a46f121efb9c5c7da92144ee1d96d4525df806a7c1c03a5db7fd31dd034ddc7a
+  checksum: a82ccb4b386a8be9edd0381093ebbccfb0cca94fdb772fd0b0221421efbdf304d76641a218d99b1be62bd2e037e25316a7203e7065e0fd8eca14ab568d4af307
   languageName: node
   linkType: hard
 
@@ -745,6 +745,15 @@ __metadata:
     "@typescript-eslint/types": 5.23.0
     eslint-visitor-keys: ^3.0.0
   checksum: 322e10d52a985e8a90d3612bb9d09a87dc64fc4cb1248484f1a9a7a98f65d3ef65a465ce868773a4939e35fa3b726ad609dac5a168efd7eaca4b06df33e965e3
+  languageName: node
+  linkType: hard
+
+"@yarnpkg/extensions@npm:^1.1.0-rc.2":
+  version: 1.1.0-rc.2
+  resolution: "@yarnpkg/extensions@npm:1.1.0-rc.2"
+  peerDependencies:
+    "@yarnpkg/core": ^4.0.0-rc.6
+  checksum: 53907203f5979835cc614e6a9c3fd59c6216323534da07db78989c654d3ad13ec8016661f0df16c7fb6f9a6e95cddd386353390a0cf98917dfeb03dc1a798756
   languageName: node
   linkType: hard
 
@@ -2915,6 +2924,7 @@ __metadata:
     "@types/react": 18.0.9
     "@types/react-dom": 18.0.4
     "@types/tailwindcss": 3.0.10
+    "@yarnpkg/extensions": ^1.1.0-rc.2
     autoprefixer: 10.4.7
     cookies-next: 2.0.4
     dayjs: 1.11.2
