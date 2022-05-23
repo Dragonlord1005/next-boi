@@ -1,3 +1,4 @@
+// Next.js 404 page
 import React from "react";
 import {
   createStyles,
