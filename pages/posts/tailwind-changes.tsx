@@ -69,7 +69,6 @@ const TailwindChanges: NextPage = () => {
           <Text>All this means is that there will be a few minor differences in the look of the site!</Text>
           <Text>Oh! And guess what, I&apos;m planning on adding some very cool article cards very soon!</Text>
           <Text>I know this post was short but I hope you got something out of it!</Text>
-          {/* Todo: Add a picture */}
         </article>
       </Container>
     </div>
