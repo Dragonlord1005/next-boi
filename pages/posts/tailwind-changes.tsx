@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./blog.module.css";
+import Image from "next/image";
 import { createStyles, Title, Text, Container } from "@mantine/core";
+import cardpreview from "../../public/Articlecardpreview.png";
 
 const useStyles = createStyles((theme) => ({
   title: {
@@ -69,6 +71,8 @@ const TailwindChanges: NextPage = () => {
           <Text>All this means is that there will be a few minor differences in the look of the site!</Text>
           <Text>Oh! And guess what, I&apos;m planning on adding some very cool article cards very soon!</Text>
           <Text>I know this post was short but I hope you got something out of it!</Text>
+          <Text>Oh heres a preview too!</Text>
+          <Image src={cardpreview} alt="Preview of the cool new preview" placeholder="blur"></Image>
         </article>
       </Container>
     </div>
