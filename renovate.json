@@ -10,5 +10,5 @@
       "groupName": "dependencies (non-major)"
     }
   ],
-  "baseBranches": ["main"]
+  "baseBranches": ["main", "pnp"]
 }
