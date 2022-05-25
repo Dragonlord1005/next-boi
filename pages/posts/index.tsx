@@ -4,6 +4,7 @@ import Head from "next/head";
 import styles from "./blog.module.css";
 import { Button, createStyles, Title } from "@mantine/core";
 import Link from "next/link";
+import cardpreview from "../../public/Articlecardpreview.png";
 
 const useStyles = createStyles((theme) => ({
   title: {
@@ -79,6 +80,12 @@ const Blog: NextPage = () => {
           <Link href="/posts/mantine-review" passHref>
             <Button component="a" className="bg-blue-700">
               Mantine Review
+            </Button>
+          </Link>
+          <br />
+          <Link href="/posts/tailwind-changes" passHref>
+            <Button component="a" className="bg-blue-700">
+              Tailwind Changes
             </Button>
           </Link>
         </main>
