@@ -652,7 +652,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*":
+"@types/prop-types@npm:*, @types/prop-types@npm:^15.7.5":
   version: 15.7.5
   resolution: "@types/prop-types@npm:15.7.5"
   checksum: 5b43b8b15415e1f298243165f1d44390403bb2bd42e662bca3b5b5633fdd39c938e91b7fce3a9483699db0f7a715d08cef220c121f723a634972fdf596aec980
@@ -2948,6 +2948,9 @@ __metadata:
     tabler-icons-react: 1.48.0
     tailwindcss: 3.0.24
     typescript: 4.7.2
+  dependenciesMeta:
+    react@18.1.0:
+      unplugged: true
   languageName: unknown
   linkType: soft
 
