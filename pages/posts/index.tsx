@@ -1,10 +1,9 @@
 import type { NextPage } from "next";
-import type { ReactElement } from "react";
+// import type { ReactElement } from "react";
 import Head from "next/head";
 import styles from "./blog.module.css";
 import { Button, createStyles, Title } from "@mantine/core";
 import Link from "next/link";
-import cardpreview from "../../public/Articlecardpreview.png";
 
 const useStyles = createStyles((theme) => ({
   title: {
@@ -66,25 +65,22 @@ const Blog: NextPage = () => {
             Blog Posts
           </Title>
           <Link href="/posts/first-post" passHref>
-            <Button component="a" className="bg-blue-700">
+            <Button component="a" className="bg-blue-600 mb-5">
               First Post
             </Button>
           </Link>
-          <br />
           <Link href="/posts/next-review" passHref>
-            <Button component="a" className="bg-blue-700">
+            <Button component="a" className="bg-blue-600 mb-5">
               Next Review
             </Button>
           </Link>
-          <br />
           <Link href="/posts/mantine-review" passHref>
-            <Button component="a" className="bg-blue-700">
+            <Button component="a" className="bg-blue-600 mb-5">
               Mantine Review
             </Button>
           </Link>
-          <br />
           <Link href="/posts/tailwind-changes" passHref>
-            <Button component="a" className="bg-blue-700">
+            <Button component="a" className="bg-blue-600 mb-5">
               Tailwind Changes
             </Button>
           </Link>
