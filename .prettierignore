@@ -13,3 +13,4 @@ LICENSE
 *.md
 .yarn
 .pnp.*
+package.json
