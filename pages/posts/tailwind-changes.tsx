@@ -67,12 +67,27 @@ const TailwindChanges: NextPage = () => {
         </Title>
         <Text>5/23/22</Text>
         <article>
-          <Text>Hi, this is a special announcement, you may be seeing a few changes to the site due to my implementation of tailwind!</Text>
-          <Text>All this means is that there will be a few minor differences in the look of the site!</Text>
-          <Text>Oh! And guess what, I&apos;m planning on adding some very cool article cards very soon!</Text>
-          <Text>I know this post was short but I hope you got something out of it!</Text>
+          <Text>
+            Hi, this is a special announcement, you may be seeing a few changes
+            to the site due to my implementation of tailwind!
+          </Text>
+          <Text>
+            All this means is that there will be a few minor differences in the
+            look of the site!
+          </Text>
+          <Text>
+            Oh! And guess what, I&apos;m planning on adding some very cool
+            article cards very soon!
+          </Text>
+          <Text>
+            I know this post was short but I hope you got something out of it!
+          </Text>
           <Text>Oh heres a preview too!</Text>
-          <Image src={cardpreview} alt="Preview of the cool new preview" placeholder="blur"></Image>
+          <Image
+            src={cardpreview}
+            alt="Preview of the cool new preview"
+            placeholder="blur"
+          ></Image>
         </article>
       </Container>
     </div>
