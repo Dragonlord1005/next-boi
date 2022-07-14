@@ -21,7 +21,8 @@
 		"dbaeumer.vscode-eslint",
 		"GitHub.copilot",
 		"bradlc.vscode-tailwindcss",
-		"formulahendry.auto-rename-tag"
+		"formulahendry.auto-rename-tag",
+		"trunk.io"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
