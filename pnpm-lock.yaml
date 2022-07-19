@@ -19,7 +19,7 @@ specifiers:
   '@types/react-dom': 18.0.6
   autoprefixer: 10.4.7
   cookies-next: 2.1.1
-  dayjs: 1.11.3
+  dayjs: 1.11.4
   eslint: 8.20.0
   eslint-config-next: 12.2.2
   eslint-config-prettier: 8.5.0
@@ -28,24 +28,24 @@ specifiers:
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
-  tabler-icons-react: 1.52.0
+  tabler-icons-react: 1.53.0
   tailwindcss: 3.1.6
   typescript: 4.7.4
 
 dependencies:
   '@mantine/core': 4.2.12_bhlenwkd723lhai3utuqqpcmru
-  '@mantine/dates': 4.2.12_4yfrb77sreti4yhszibccv2ini
+  '@mantine/dates': 4.2.12_eu6ecr2ii34k3j4evqpacybtfq
   '@mantine/hooks': 4.2.12_react@18.2.0
   '@mantine/modals': 4.2.12_n5fi23fjjzlwcbqhnnpdtjftw4
   '@mantine/next': 4.2.12_2gqzyayxaiqf33ltv5ghxbozne
   '@mantine/prism': 4.2.12_n5fi23fjjzlwcbqhnnpdtjftw4
   '@mantine/spotlight': 4.2.12_n5fi23fjjzlwcbqhnnpdtjftw4
   cookies-next: 2.1.1
-  dayjs: 1.11.3
+  dayjs: 1.11.4
   next: 12.2.2_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  tabler-icons-react: 1.52.0_react@18.2.0
+  tabler-icons-react: 1.53.0_react@18.2.0
 
 devDependencies:
   '@types/node': 18.0.4
@@ -223,7 +223,7 @@ packages:
       - '@types/react'
     dev: false
 
-  /@mantine/dates/4.2.12_4yfrb77sreti4yhszibccv2ini:
+  /@mantine/dates/4.2.12_eu6ecr2ii34k3j4evqpacybtfq:
     resolution: {integrity: sha512-zyCZbU0Hx4pH3ylIFNvvg5EFh4b5ZnIE1nBWO0Yes9XI4j3exa6s5d1YQ5G8Hn+hrKWlu4YHVlXB08J0em83EA==}
     peerDependencies:
       '@mantine/core': 4.2.12
@@ -233,7 +233,7 @@ packages:
     dependencies:
       '@mantine/core': 4.2.12_bhlenwkd723lhai3utuqqpcmru
       '@mantine/hooks': 4.2.12_react@18.2.0
-      dayjs: 1.11.3
+      dayjs: 1.11.4
       react: 18.2.0
     dev: false
 
@@ -1005,8 +1005,8 @@ packages:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
     dev: true
 
-  /dayjs/1.11.3:
-    resolution: {integrity: sha512-xxwlswWOlGhzgQ4TKzASQkUhqERI3egRNqgV4ScR8wlANA/A9tZ7miXa44vTTKEq5l7vWoL5G57bG3zA+Kow0A==}
+  /dayjs/1.11.4:
+    resolution: {integrity: sha512-Zj/lPM5hOvQ1Bf7uAvewDaUcsJoI6JmNqmHhHl3nyumwe0XHwt8sWdOVAPACJzCebL8gQCi+K49w7iKWnGwX9g==}
     dev: false
 
   /debug/2.6.9:
@@ -2645,8 +2645,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tabler-icons-react/1.52.0_react@18.2.0:
-    resolution: {integrity: sha512-WLsTMiIS7ERdpOX0xH3fPjL3XLjkLCpxXG0SipV6e4T7TLU2ZhdpBeTnAx4DYw7oM3zPDSphDVfP2MfqgIIfog==}
+  /tabler-icons-react/1.53.0_react@18.2.0:
+    resolution: {integrity: sha512-48csX1qiZaXK0yPgNmvkgsZSyqxBU0AVGGzT4DXh1CVEcTkKF39rQP7EeLYeTGeCnM2Ot9tSiKfay1FLOzr0Rg==}
     peerDependencies:
       react: '>= 16.8.0 || 18'
     dependencies:
