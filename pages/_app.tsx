@@ -1,18 +1,14 @@
 import "../styles/globals.css";
 import type { ReactElement, ReactNode } from "react";
-import { useState } from "react";
-import { GetServerSidePropsContext } from "next";
 import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import Layout from "../components/layout";
-import { getCookie, setCookies } from "cookies-next";
 import {
   MantineProvider,
   ColorSchemeProvider,
-  useMantineColorScheme,
   ColorScheme,
 } from "@mantine/core";
-import { useHotkeys, useLocalStorage } from "@mantine/hooks";
+import { useLocalStorage } from "@mantine/hooks";
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
