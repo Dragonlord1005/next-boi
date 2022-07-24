@@ -12,6 +12,7 @@ import {
   useMantineColorScheme,
   ColorScheme,
 } from "@mantine/core";
+import { useHotkeys, useLocalStorage } from "@mantine/hooks";
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
@@ -21,23 +22,15 @@ type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout;
 };
 
-export default function App(props: AppProps & { colorScheme: ColorScheme }) {
-  const { Component, pageProps }: AppPropsWithLayout = props;
-  const getLayout = Component.getLayout ?? ((page) => page);
-  //const { Component, pageProps } = props;
-  const [colorScheme, setColorScheme] = useState<ColorScheme>(
-    props.colorScheme
-  );
+export default function App({ Component, pageProps }: AppPropsWithLayout) {
+  const [colorScheme, setColorScheme] = useLocalStorage<ColorScheme>({
+    key: "mantine-color-scheme",
+    defaultValue: "light",
+    getInitialValueInEffect: true,
+  });
 
-  const toggleColorScheme = (value?: ColorScheme) => {
-    const nextColorScheme =
-      value || (colorScheme === "dark" ? "light" : "dark");
-    setColorScheme(nextColorScheme);
-    // when color scheme is updated save it to cookie
-    setCookies("mantine-color-scheme", nextColorScheme, {
-      maxAge: 60 * 60 * 24 * 30,
-    });
-  };
+  const toggleColorScheme = (value?: ColorScheme) =>
+    setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
 
   return (
     <ColorSchemeProvider
@@ -56,8 +49,3 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
     </ColorSchemeProvider>
   );
 }
-
-App.getInitialProps = ({ ctx }: { ctx: GetServerSidePropsContext }) => ({
-  // get color scheme from cookie
-  colorScheme: getCookie("mantine-color-scheme", ctx) || "light",
-});
