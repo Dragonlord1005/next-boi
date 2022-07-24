@@ -1,6 +1,5 @@
 {
     "recommendations": [
-        "codiga.vscode-plugin",
         "formulahendry.auto-rename-tag"
     ]
 }
