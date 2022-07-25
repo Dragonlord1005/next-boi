@@ -13,7 +13,7 @@ specifiers:
   '@mantine/modals': 4.2.12
   '@mantine/next': 4.2.12
   '@mantine/prism': 4.2.12
-  '@mantine/spotlight': 4.2.12
+  '@mantine/spotlight': 5.0.0
   '@types/node': 18.0.4
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
@@ -39,7 +39,7 @@ dependencies:
   '@mantine/modals': 4.2.12_n5fi23fjjzlwcbqhnnpdtjftw4
   '@mantine/next': 4.2.12_ojkeujfq2n6rybiqiybg34xbbu
   '@mantine/prism': 4.2.12_n5fi23fjjzlwcbqhnnpdtjftw4
-  '@mantine/spotlight': 4.2.12_n5fi23fjjzlwcbqhnnpdtjftw4
+  '@mantine/spotlight': 5.0.0_n5fi23fjjzlwcbqhnnpdtjftw4
   dayjs: 1.11.4
   next: 12.2.3_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -291,16 +291,17 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@mantine/spotlight/4.2.12_n5fi23fjjzlwcbqhnnpdtjftw4:
-    resolution: {integrity: sha512-eUOV1rN8iCCQZc1es8Kq9Wgrbo3xuKb4KqY7yBRvP5E6FQqwZ0F2RlwT4YDWkYOPisFpeuVeoZa4kiOs3rS0Fw==}
+  /@mantine/spotlight/5.0.0_n5fi23fjjzlwcbqhnnpdtjftw4:
+    resolution: {integrity: sha512-emDuL15OSKQ9xw1y9gjTWIqWugD7MpLhoPBkfEQ8vAVnqgVUNZ99JGusyxmKZnvuXHg1BvAHio/PxFA+63dV1g==}
     peerDependencies:
-      '@mantine/core': 4.2.12
-      '@mantine/hooks': 4.2.12
+      '@mantine/core': 5.0.0
+      '@mantine/hooks': 5.0.0
       react: '>=16.8.0 || 18'
       react-dom: '>=16.8.0 || 18'
     dependencies:
       '@mantine/core': 4.2.12_bhlenwkd723lhai3utuqqpcmru
       '@mantine/hooks': 4.2.12_react@18.2.0
+      '@mantine/utils': 5.0.0_react@18.2.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false
@@ -344,6 +345,14 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - '@types/react'
+    dev: false
+
+  /@mantine/utils/5.0.0_react@18.2.0:
+    resolution: {integrity: sha512-Fy9BdxWvrXkplWua8ZKmsBQODo24QB8OPn6BEmvXUt4O+3qoP27VaAWQVea4opWZsy+L5dtEe/kOXY/Q/kC2qg==}
+    peerDependencies:
+      react: '>=16.8.0 || 18'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /@next/env/12.2.3:
