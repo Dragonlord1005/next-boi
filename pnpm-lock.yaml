@@ -17,7 +17,7 @@ specifiers:
   '@types/node': 18.0.4
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
-  autoprefixer: 10.4.7
+  autoprefixer: 10.4.8
   dayjs: 1.11.4
   eslint: 8.20.0
   eslint-config-next: 12.2.3
@@ -51,7 +51,7 @@ devDependencies:
   '@types/node': 18.0.4
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
-  autoprefixer: 10.4.7_postcss@8.4.14
+  autoprefixer: 10.4.8_postcss@8.4.14
   eslint: 8.20.0
   eslint-config-next: 12.2.3_he2ccbldppg44uulnyq4rwocfa
   eslint-config-prettier: 8.5.0_eslint@8.20.0
@@ -821,15 +821,15 @@ packages:
     resolution: {integrity: sha512-eBvWn1lvIApYMhzQMsu9ciLfkBY499mFZlNqG+/9WR7PVlroQw0vG30cOQQbaKz3sCEc44TAOu2ykzqXSNnwag==}
     dev: true
 
-  /autoprefixer/10.4.7_postcss@8.4.14:
-    resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
+  /autoprefixer/10.4.8_postcss@8.4.14:
+    resolution: {integrity: sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.20.3
-      caniuse-lite: 1.0.30001341
+      browserslist: 4.21.3
+      caniuse-lite: 1.0.30001373
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -881,16 +881,15 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /browserslist/4.20.3:
-    resolution: {integrity: sha512-NBhymBQl1zM0Y5dQT/O+xiLP9/rzOIQdKM/eMJBAq7yBgaB6krIYLGejrwVYnSHZdqjscB1SPuAjHwxjvN6Wdg==}
+  /browserslist/4.21.3:
+    resolution: {integrity: sha512-898rgRXLAyRkM1GryrrBHGkqA5hlpkV5MhtZwg9QXeiyLUYs2k00Un05aX5l2/yJIOObYKOpS2JNo8nJDE7fWQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001341
-      electron-to-chromium: 1.4.137
-      escalade: 3.1.1
-      node-releases: 2.0.4
-      picocolors: 1.0.0
+      caniuse-lite: 1.0.30001373
+      electron-to-chromium: 1.4.206
+      node-releases: 2.0.6
+      update-browserslist-db: 1.0.5_browserslist@4.21.3
     dev: true
 
   /buffer-from/0.1.2:
@@ -923,6 +922,11 @@ packages:
 
   /caniuse-lite/1.0.30001341:
     resolution: {integrity: sha512-2SodVrFFtvGENGCv0ChVJIDQ0KPaS1cg7/qtfMaICgeMolDdo/Z2OD32F0Aq9yl6F4YFwGPBS5AaPqNYiW4PoA==}
+    dev: false
+
+  /caniuse-lite/1.0.30001373:
+    resolution: {integrity: sha512-pJYArGHrPp3TUqQzFYRmP/lwJlj8RCbVe3Gd3eJQkAV8SAC6b19XS9BjMvRdvaS8RMkaTN8ZhoHP6S1y8zzwEQ==}
+    dev: true
 
   /chalk/4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -1170,8 +1174,8 @@ packages:
       readable-stream: 2.3.7
     dev: false
 
-  /electron-to-chromium/1.4.137:
-    resolution: {integrity: sha512-0Rcpald12O11BUogJagX3HsCN3FE83DSqWjgXoHo5a72KUKMSfI39XBgJpgNNxS9fuGzytaFjE06kZkiVFy2qA==}
+  /electron-to-chromium/1.4.206:
+    resolution: {integrity: sha512-h+Fadt1gIaQ06JaIiyqPsBjJ08fV5Q7md+V8bUvQW/9OvXfL2LRICTz2EcnnCP7QzrFTS6/27MRV6Bl9Yn97zA==}
     dev: true
 
   /emoji-regex/9.2.2:
@@ -2148,8 +2152,8 @@ packages:
     resolution: {integrity: sha512-CvkDw2OEnme7ybCykJpVcKH+uAOLV2qLqiyla128dN9TkEWfrYmxG6C2boDe5KcNQqZF3orkqzGgOMvZ/JNekA==}
     dev: false
 
-  /node-releases/2.0.4:
-    resolution: {integrity: sha512-gbMzqQtTtDz/00jQzZ21PQzdI9PyLYqUSvD0p3naOhX4odFji0ZxYdnVwPTxmSwkmxhcFImpozceidSG+AgoPQ==}
+  /node-releases/2.0.6:
+    resolution: {integrity: sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg==}
     dev: true
 
   /normalize-path/3.0.0:
@@ -2941,6 +2945,17 @@ packages:
       has-bigints: 1.0.2
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
+    dev: true
+
+  /update-browserslist-db/1.0.5_browserslist@4.21.3:
+    resolution: {integrity: sha512-dteFFpCyvuDdr9S/ff1ISkKt/9YZxKjI9WlRR99c180GaztJtRa/fn18FdxGVKVsnPY7/a/FDN68mcvUmP4U7Q==}
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+    dependencies:
+      browserslist: 4.21.3
+      escalade: 3.1.1
+      picocolors: 1.0.0
     dev: true
 
   /uri-js/4.4.1:
