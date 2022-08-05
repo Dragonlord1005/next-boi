@@ -10,7 +10,7 @@
     "format": "prettier . -w"
   },
   "dependencies": {
-    "@mantine/core": "4.2.12",
+    "@mantine/core": "5.0.3",
     "@mantine/dates": "4.2.12",
     "@mantine/hooks": "4.2.12",
     "@mantine/modals": "4.2.12",
