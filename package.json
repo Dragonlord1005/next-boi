@@ -14,7 +14,7 @@
     "@mantine/dates": "5.1.4",
     "@mantine/hooks": "4.2.12",
     "@mantine/modals": "4.2.12",
-    "@mantine/next": "4.2.12",
+    "@mantine/next": "5.1.4",
     "@mantine/prism": "4.2.12",
     "@mantine/spotlight": "5.1.4",
     "dayjs": "1.11.5",
