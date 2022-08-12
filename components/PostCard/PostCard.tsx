@@ -37,7 +37,10 @@ interface CardGradientProps {
   description: string;
 }
 
-export default function CardGradient({ title, description }: CardGradientProps) {
+export default function CardGradient({
+  title,
+  description,
+}: CardGradientProps) {
   const { classes } = useStyles();
   return (
     <Paper withBorder radius="md" className={classes.card}>
@@ -58,4 +61,3 @@ export default function CardGradient({ title, description }: CardGradientProps) 
     </Paper>
   );
 }
-
