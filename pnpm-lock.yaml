@@ -8,7 +8,7 @@ overrides:
 
 specifiers:
   '@mantine/core': 5.1.4
-  '@mantine/dates': 4.2.12
+  '@mantine/dates': 5.1.4
   '@mantine/hooks': 4.2.12
   '@mantine/modals': 4.2.12
   '@mantine/next': 4.2.12
@@ -34,7 +34,7 @@ specifiers:
 
 dependencies:
   '@mantine/core': 5.1.4_75kurbbzrh5iy3gao6ylk2cbay
-  '@mantine/dates': 4.2.12_s6inbolzheucihrrkoaigou6ge
+  '@mantine/dates': 5.1.4_s6inbolzheucihrrkoaigou6ge
   '@mantine/hooks': 4.2.12_react@18.2.0
   '@mantine/modals': 4.2.12_22fvp5z6bm7tvutgtfqrmqrfwq
   '@mantine/next': 4.2.12_hzqpspqv7hg2dgsi27ebydusw4
@@ -262,16 +262,17 @@ packages:
       - '@types/react'
     dev: false
 
-  /@mantine/dates/4.2.12_s6inbolzheucihrrkoaigou6ge:
-    resolution: {integrity: sha512-zyCZbU0Hx4pH3ylIFNvvg5EFh4b5ZnIE1nBWO0Yes9XI4j3exa6s5d1YQ5G8Hn+hrKWlu4YHVlXB08J0em83EA==}
+  /@mantine/dates/5.1.4_s6inbolzheucihrrkoaigou6ge:
+    resolution: {integrity: sha512-GBBtHC3YlgbudD3Mj3lRgRWkyCspb8+cs63+/UFiHL7cOP5BiV74NVN0fEXikCLjMLYoVpqQly7WI0yqLXgAhA==}
     peerDependencies:
-      '@mantine/core': 4.2.12
-      '@mantine/hooks': 4.2.12
-      dayjs: ^1.10.5
+      '@mantine/core': 5.1.4
+      '@mantine/hooks': 5.1.4
+      dayjs: '>=1.0.0'
       react: '>=16.8.0 || 18'
     dependencies:
       '@mantine/core': 5.1.4_75kurbbzrh5iy3gao6ylk2cbay
       '@mantine/hooks': 4.2.12_react@18.2.0
+      '@mantine/utils': 5.1.4_react@18.2.0
       dayjs: 1.11.5
       react: 18.2.0
     dev: false
