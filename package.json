@@ -12,10 +12,10 @@
   "dependencies": {
     "@mantine/core": "5.1.4",
     "@mantine/dates": "5.1.4",
-    "@mantine/hooks": "4.2.12",
-    "@mantine/modals": "4.2.12",
-    "@mantine/next": "4.2.12",
-    "@mantine/prism": "4.2.12",
+    "@mantine/hooks": "5.1.4",
+    "@mantine/modals": "5.1.4",
+    "@mantine/next": "5.1.4",
+    "@mantine/prism": "5.1.4",
     "@mantine/spotlight": "5.1.4",
     "dayjs": "1.11.5",
     "next": "12.2.5",
@@ -25,6 +25,8 @@
     "tabler-icons-react": "1.54.0"
   },
   "devDependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/server": "^11.10.0",
     "@types/node": "18.0.4",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
