@@ -8,7 +8,7 @@ import {
   Paper,
   Transition,
 } from "@mantine/core";
-import { useBooleanToggle } from "@mantine/hooks";
+import { useDisclosure } from "@mantine/hooks";
 import Link from "next/link";
 
 /*
@@ -101,7 +101,7 @@ interface NavbarResponsiveProps {
 }
 
 export default function Navbar({ links }: NavbarResponsiveProps) {
-  const [opened, toggleOpened] = useBooleanToggle(false);
+  const [opened, { toggle, close }] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
   const { classes, cx } = useStyles();
 
@@ -115,7 +115,7 @@ export default function Navbar({ links }: NavbarResponsiveProps) {
         onClick={(event) => {
           //event.preventDefault();
           setActive(link.link);
-          toggleOpened(false);
+          close();
         }}
       >
         {link.label}
@@ -131,12 +131,8 @@ export default function Navbar({ links }: NavbarResponsiveProps) {
           {items}
         </Group>
 
-        <Burger
-          opened={opened}
-          onClick={() => toggleOpened()}
-          className={classes.burger}
-          size="sm"
-        />
+        <Burger opened={opened} onClick={toggle} className={classes.burger} size="sm" />
+
 
         <Transition transition="pop-top-right" duration={200} mounted={opened}>
           {(styles) => (
