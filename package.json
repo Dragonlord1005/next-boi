@@ -12,7 +12,7 @@
   "dependencies": {
     "@mantine/core": "5.1.4",
     "@mantine/dates": "5.1.4",
-    "@mantine/hooks": "4.2.12",
+    "@mantine/hooks": "5.1.4",
     "@mantine/modals": "4.2.12",
     "@mantine/next": "4.2.12",
     "@mantine/prism": "4.2.12",
