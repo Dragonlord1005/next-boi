@@ -90,9 +90,9 @@ const useStyles = createStyles((theme) => ({
       backgroundColor:
         theme.colorScheme === "dark"
           ? theme.fn.rgba(theme.colors[theme.primaryColor][9], 0.25)
-          : theme.colors[theme.primaryColor][1],
+          : theme.colors.blue[2],
       color:
-        theme.colors[theme.primaryColor][theme.colorScheme === "dark" ? 3 : 7],
+        theme.colorScheme === "dark" ? theme.colors.gray[0] : theme.colors.dark[9],
     },
   },
 }));
