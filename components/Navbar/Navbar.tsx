@@ -7,6 +7,7 @@ import {
   Burger,
   Paper,
   Transition,
+  Text,
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import Link from "next/link";
@@ -67,7 +68,7 @@ const useStyles = createStyles((theme) => ({
     color:
       theme.colorScheme === "dark"
         ? theme.colors.dark[0]
-        : theme.colors.gray[7],
+        : theme.colors.gray[9],
     fontSize: theme.fontSizes.sm,
     fontWeight: 500,
 
@@ -75,7 +76,7 @@ const useStyles = createStyles((theme) => ({
       backgroundColor:
         theme.colorScheme === "dark"
           ? theme.colors.dark[6]
-          : theme.colors.gray[0],
+          : theme.colors.gray[2],
     },
 
     [theme.fn.smallerThan("sm")]: {
@@ -89,7 +90,7 @@ const useStyles = createStyles((theme) => ({
       backgroundColor:
         theme.colorScheme === "dark"
           ? theme.fn.rgba(theme.colors[theme.primaryColor][9], 0.25)
-          : theme.colors[theme.primaryColor][0],
+          : theme.colors[theme.primaryColor][1],
       color:
         theme.colors[theme.primaryColor][theme.colorScheme === "dark" ? 3 : 7],
     },
@@ -126,7 +127,7 @@ export default function Navbar({ links }: NavbarResponsiveProps) {
   return (
     <Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
       <Container className={classes.header}>
-        <a>My Blog</a>
+        <Text>My Blog</Text>
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>
