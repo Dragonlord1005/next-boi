@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "command": "yarn start",
+            "command": "pnpm run start",
             "name": "Start Production Server",
             "request": "launch",
             "type": "node-terminal"
         },
         {
-            "command": "yarn dev",
+            "command": "pnpm run dev",
             "name": "Start Dev Server",
             "request": "launch",
             "type": "node-terminal"
