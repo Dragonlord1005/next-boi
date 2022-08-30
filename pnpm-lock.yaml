@@ -14,6 +14,7 @@ specifiers:
   '@mantine/hooks': 5.2.4
   '@mantine/modals': 5.2.4
   '@mantine/next': 5.2.4
+  '@mantine/nprogress': ^5.2.4
   '@mantine/prism': 5.2.4
   '@mantine/spotlight': 5.2.4
   '@types/node': 18.0.4
@@ -40,6 +41,7 @@ dependencies:
   '@mantine/hooks': 5.2.4_react@18.2.0
   '@mantine/modals': 5.2.4_pnotznusn57yqwluzmavmqvgti
   '@mantine/next': 5.2.4_grhad7mssdiwyutihkpt5mvrhq
+  '@mantine/nprogress': 5.2.4_pnotznusn57yqwluzmavmqvgti
   '@mantine/prism': 5.2.4_pnotznusn57yqwluzmavmqvgti
   '@mantine/spotlight': 5.2.4_pnotznusn57yqwluzmavmqvgti
   dayjs: 1.11.5
@@ -556,6 +558,21 @@ packages:
     transitivePeerDependencies:
       - '@emotion/react'
       - '@emotion/server'
+    dev: false
+
+  /@mantine/nprogress/5.2.4_pnotznusn57yqwluzmavmqvgti:
+    resolution: {integrity: sha512-7rW6Z5avh6lz59Z7HZ9PvA1P9ozId0fr6W51sXhniTJkAEyVjTWa7ySWjpaJVHxVYcdzkP4mI3Rqim6AcIPKAw==}
+    peerDependencies:
+      '@mantine/core': 5.2.4
+      '@mantine/hooks': 5.2.4
+      react: '>=16.8.0 || 18'
+      react-dom: '>=16.8.0 || 18'
+    dependencies:
+      '@mantine/core': 5.2.4_cblwnfcr2uqtarttbxmtjvjy7q
+      '@mantine/hooks': 5.2.4_react@18.2.0
+      '@mantine/utils': 5.2.4_react@18.2.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /@mantine/prism/5.2.4_pnotznusn57yqwluzmavmqvgti:

@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import dynamic from "next/dynamic";
+import { RouterTransition } from "./RouterTransition";
 
 const LightDark = dynamic(() => import("./LightDark/LightDark"));
 const Navbar = dynamic(() => import("./Navbar/Navbar"));
@@ -16,6 +17,7 @@ const links = [
 const Layout = ({ children }: Props) => (
   <div>
     <Navbar links={links} />
+    <RouterTransition />
     {children}
     <LightDark />
   </div>

@@ -15,6 +15,7 @@
     "@mantine/hooks": "5.2.4",
     "@mantine/modals": "5.2.4",
     "@mantine/next": "5.2.4",
+    "@mantine/nprogress": "^5.2.4",
     "@mantine/prism": "5.2.4",
     "@mantine/spotlight": "5.2.4",
     "dayjs": "1.11.5",
