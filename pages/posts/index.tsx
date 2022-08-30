@@ -84,6 +84,11 @@ const Blog: NextPage = () => {
               Tailwind Changes
             </Button>
           </Link>
+          <Link>
+            <Button component="a" className="bg-blue-600 mb-5">
+              GitHub Codespaces
+            </Button>
+          </Link>
         </main>
       </div>
     </>
