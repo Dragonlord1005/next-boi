@@ -59,9 +59,9 @@ const Codespaces: NextPage = () => {
 
       <Container className={styles.main}>
         <Title align="center" className={classes.title}>
-          TEMPLATE
+          GitHub Codespaces
         </Title>
-        <Text className={classes.description}>Placeholder</Text>
+        <Text className={classes.description}>and why it`&apos;`s</Text>
         <article>
           <a>hi</a>
         </article>
