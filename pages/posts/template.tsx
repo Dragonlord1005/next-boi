@@ -59,11 +59,11 @@ const Template: NextPage = () => {
 
       <Container className={styles.main}>
         <Title align="center" className={classes.title}>
-          GitHub Codespaces
+          TEMPLATE
         </Title>
-        <Text className={classes.description}>and why it's awesome</Text>
+        <Text className={classes.description}></Text>
         <article>
-          <a>GitHub Codespaces is incredible</a>
+          <a>Template</a>
         </article>
       </Container>
     </div>
