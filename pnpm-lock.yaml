@@ -14,7 +14,7 @@ specifiers:
   '@mantine/hooks': 5.2.4
   '@mantine/modals': 5.2.4
   '@mantine/next': 5.2.4
-  '@mantine/nprogress': ^5.2.4
+  '@mantine/nprogress': 5.2.4
   '@mantine/prism': 5.2.4
   '@mantine/spotlight': 5.2.4
   '@types/node': 18.0.4
