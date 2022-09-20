@@ -9,6 +9,7 @@ import {
   ColorScheme,
 } from "@mantine/core";
 import { useLocalStorage } from "@mantine/hooks";
+import { RouterTransition } from '../components/RouterTransition';
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
@@ -38,7 +39,9 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
         withNormalizeCSS
         theme={{ colorScheme }}
       >
+        {/* <RouterTransition /> */}
         <Layout>
+          
           <Component {...pageProps} />
         </Layout>
       </MantineProvider>
