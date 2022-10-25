@@ -51,43 +51,41 @@ const useStyles = createStyles((theme) => ({
 
 const Blog: NextPage = () => {
   const { classes } = useStyles();
-  return (
-    <>
-      <div className={styles.container}>
-        <Head>
-          <title>Blog Posts</title>
-          <meta name="description" content="Blog Posts" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+  return <>
+    <div className={styles.container}>
+      <Head>
+        <title>Blog Posts</title>
+        <meta name="description" content="Blog Posts" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-        <main className={styles.main}>
-          <Title align="center" className={classes.title}>
-            Blog Posts
-          </Title>
-          <Link href="/posts/first-post" passHref>
-            <Button component="a" className="bg-blue-600 mb-5">
-              First Post
-            </Button>
-          </Link>
-          <Link href="/posts/next-review" passHref>
-            <Button component="a" className="bg-blue-600 mb-5">
-              Next Review
-            </Button>
-          </Link>
-          <Link href="/posts/mantine-review" passHref>
-            <Button component="a" className="bg-blue-600 mb-5">
-              Mantine Review
-            </Button>
-          </Link>
-          <Link href="/posts/tailwind-changes" passHref>
-            <Button component="a" className="bg-blue-600 mb-5">
-              Tailwind Changes
-            </Button>
-          </Link>
-        </main>
-      </div>
-    </>
-  );
+      <main className={styles.main}>
+        <Title align="center" className={classes.title}>
+          Blog Posts
+        </Title>
+        <Link href="/posts/first-post" passHref legacyBehavior>
+          <Button component="a" className="bg-blue-600 mb-5">
+            First Post
+          </Button>
+        </Link>
+        <Link href="/posts/next-review" passHref legacyBehavior>
+          <Button component="a" className="bg-blue-600 mb-5">
+            Next Review
+          </Button>
+        </Link>
+        <Link href="/posts/mantine-review" passHref legacyBehavior>
+          <Button component="a" className="bg-blue-600 mb-5">
+            Mantine Review
+          </Button>
+        </Link>
+        <Link href="/posts/tailwind-changes" passHref legacyBehavior>
+          <Button component="a" className="bg-blue-600 mb-5">
+            Tailwind Changes
+          </Button>
+        </Link>
+      </main>
+    </div>
+  </>;
 };
 
 export default Blog;
