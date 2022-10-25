@@ -38,6 +38,8 @@ const Home: NextPage = () => {
         <Title align="center" className={classes.title}>
           Welcome to my Blog
         </Title>
+        {/* We need to display og-image based on whats in the meta tag*/}
+        <img src="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og" />
       </main>
     </div>
   );
