@@ -40,13 +40,13 @@ export default function LightDark() {
   return (
     <Group position="right" my={30}>
       <div className={classes.root}>
-        <Sun className={cx(classes.icon, classes.iconLight)} size={18} />
-        <MoonStars className={cx(classes.icon, classes.iconDark)} size={18} />
         <Switch
           checked={colorScheme === "dark"}
           onChange={() => toggleColorScheme()}
           size="md"
           aria-label="Light/Dark Mode toggle"
+          offLabel={<Sun className={classes.icon} size={18} />}
+          onLabel={<MoonStars className={classes.icon} size={18} />}
         />
       </div>
     </Group>
