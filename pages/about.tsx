@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Joe from "../public/Joe.jpg";
 import { createStyles, Title, Text } from "@mantine/core";
 

@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./blog.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { createStyles, Title, Text, Container } from "@mantine/core";
 import cardpreview from "../../public/Articlecardpreview.png";
 
