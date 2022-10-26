@@ -64,6 +64,10 @@ const MantineReview: NextPage = () => {
         <title>Mantine Review</title>
         <meta name="My mantine review" content="Mantine Review" />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:image"
+          content="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og?title=Mantine Review"
+        />
       </Head>
 
       <Container className={styles.main}>
