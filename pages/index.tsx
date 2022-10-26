@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:image"
-          content="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og"
+          content="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og?title=Next Boi"
         />
       </Head>
       <main className={styles.main}>
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
         </Title>
         {/* We need to display og-image based on whats in the meta tag*/}
         <Image
-          src="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og"
+          src="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og?title=Next Boi"
           width={500}
           height={500}
           alt="Next-boi"
