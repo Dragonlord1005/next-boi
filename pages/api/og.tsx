@@ -11,7 +11,7 @@ export default function handler(req: NextRequest) {
     const { searchParams } = new URL(req.url);
 
     // ?title=<title>
-    const hasTitle = SearchParams.has("title");
+    const hasTitle = searchParams.has("title");
     const title = hasTitle
       ? searchParams.get("title")?.slice(0, 100)
       : "Next Boi";

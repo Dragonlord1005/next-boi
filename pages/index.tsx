@@ -43,8 +43,8 @@ const Home: NextPage = () => {
         {/* We need to display og-image based on whats in the meta tag*/}
         <Image
           src="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og"
-          width={100}
-          height={100}
+          width={500}
+          height={500}
           alt="Next-boi"
         />
       </main>
