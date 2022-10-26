@@ -17,7 +17,7 @@ specifiers:
   '@mantine/nprogress': 5.6.2
   '@mantine/prism': 5.6.2
   '@mantine/spotlight': 5.6.2
-  '@types/node': 18.11.5
+  '@types/node': 18.11.6
   '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   '@vercel/og': ^0.0.20
@@ -56,7 +56,7 @@ dependencies:
 devDependencies:
   '@emotion/react': 11.10.4_h5doshvicbx6vypuxcxc6vphru
   '@emotion/server': 11.10.0
-  '@types/node': 18.11.5
+  '@types/node': 18.11.6
   '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   autoprefixer: 10.4.12_postcss@8.4.18
@@ -924,8 +924,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.11.5:
-    resolution: {integrity: sha512-3JRwhbjI+cHLAkUorhf8RnqUbFXajvzX4q6fMn5JwkgtuwfYtRQYI3u4V92vI6NJuTsbBQWWh3RZjFsuevyMGQ==}
+  /@types/node/18.11.6:
+    resolution: {integrity: sha512-j3CEDa2vd96K0AXF8Wur7UucACvnjkk8hYyQAHhUNciabZLDl9nfAEVUSwmh245OOZV15bRA3Y590Gi5jUcDJg==}
     dev: true
 
   /@types/parse-json/4.0.0:
