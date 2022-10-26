@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { createStyles, Title } from "@mantine/core";
+import Image from "next/image";
 
 const useStyles = createStyles((theme) => ({
   title: {
@@ -30,7 +31,8 @@ const Home: NextPage = () => {
         <title>My Blog</title>
         <meta name="description" content="A personal blog" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:image"
+        <meta
+          property="og:image"
           content="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og"
         />
       </Head>
@@ -39,7 +41,12 @@ const Home: NextPage = () => {
           Welcome to my Blog
         </Title>
         {/* We need to display og-image based on whats in the meta tag*/}
-        <img src="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og" />
+        <Image
+          src="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og"
+          width={100}
+          height={100}
+          alt="Next-boi"
+        />
       </main>
     </div>
   );
