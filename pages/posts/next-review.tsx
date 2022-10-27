@@ -55,13 +55,17 @@ const NextReview: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Next Review</title>
-        <meta name="description" content="Next Review" />
+        <meta name="description" content="Nextjs Review" />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:image"
+          content="https://next-boi.vercel.app/api/og?titleNextjs Review"
+        />
       </Head>
 
       <Container className={styles.main}>
         <Title align="center" className={classes.title}>
-          Next Review
+          Nextjs Review
         </Title>
         <Text>1/2/22</Text>
         <article>
@@ -72,7 +76,10 @@ const NextReview: NextPage = () => {
           </Text>
           <Text>The Cons</Text>
           <Text>
-            Lame documentation Bad premade components Many more things
+            Lame documentation Bad premade components Many more things.
+          </Text>
+          <Text>
+            Heavy vercel integration, leading to vendor lockin, and difficulty with integrating with other services.
           </Text>
           <Text>
             This was pretty short but I tried my best, not really used to this

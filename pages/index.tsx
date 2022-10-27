@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { createStyles, Title } from "@mantine/core";
+import Image from "next/image";
 
 const useStyles = createStyles((theme) => ({
   title: {
@@ -30,11 +31,22 @@ const Home: NextPage = () => {
         <title>My Blog</title>
         <meta name="description" content="A personal blog" />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:image"
+          content="https://next-boi.vercel.app/api/og?title=Next Boi"
+        />
       </Head>
       <main className={styles.main}>
         <Title align="center" className={classes.title}>
           Welcome to my Blog
         </Title>
+
+        {/* <Image
+          src="https://next-boi.vercel.app/api/og?title=Next Boi"
+          width={500}
+          height={500}
+          alt="Next-boi"
+        /> */}
       </main>
     </div>
   );

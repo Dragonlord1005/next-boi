@@ -57,8 +57,11 @@ const Blog: NextPage = () => {
         <title>Blog Posts</title>
         <meta name="description" content="Blog Posts" />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:image"
+          content="https://next-boi.vercel.app/api/og?title=Blog Posts"
+        />
       </Head>
-
       <main className={styles.main}>
         <Title align="center" className={classes.title}>
           Blog Posts

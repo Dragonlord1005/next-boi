@@ -59,6 +59,10 @@ const TailwindChanges: NextPage = () => {
         <title>Tailwind Changes</title>
         <meta name="description" content="Tailwind Changes" />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:image"
+          content="https://next-boi.vercel.app/api/og?title=Tailwind Changes"
+        />
       </Head>
 
       <Container className={styles.main}>
