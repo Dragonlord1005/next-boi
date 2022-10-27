@@ -55,13 +55,17 @@ const NextReview: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Next Review</title>
-        <meta name="description" content="Next Review" />
+        <meta name="description" content="Nextjs Review" />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:image"
+          content="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og?titleNextjs Review"
+        />
       </Head>
 
       <Container className={styles.main}>
         <Title align="center" className={classes.title}>
-          Next Review
+          Nextjs Review
         </Title>
         <Text>1/2/22</Text>
         <article>
