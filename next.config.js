@@ -9,7 +9,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "next-boi-git-og-image-dragonlord1005.vercel.app",
+        hostname: "next-boi.vercel.app",
         pathname: "/**",
       },
     ],
