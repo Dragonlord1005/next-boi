@@ -72,7 +72,10 @@ const NextReview: NextPage = () => {
           </Text>
           <Text>The Cons</Text>
           <Text>
-            Lame documentation Bad premade components Many more things
+            Lame documentation Bad premade components Many more things.
+          </Text>
+          <Text>
+            Heavy vercel integration, leading to vendor lockin, and difficulty with integrating with other services.
           </Text>
           <Text>
             This was pretty short but I tried my best, not really used to this
