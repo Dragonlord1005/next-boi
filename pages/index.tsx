@@ -33,16 +33,16 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:image"
-          content="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og?title=Next Boi"
+          content="https://next-boi.vercel.app/api/og?title=Next Boi"
         />
       </Head>
       <main className={styles.main}>
         <Title align="center" className={classes.title}>
           Welcome to my Blog
         </Title>
-        
+
         {/* <Image
-          src="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og?title=Next Boi"
+          src="https://next-boi.vercel.app/api/og?title=Next Boi"
           width={500}
           height={500}
           alt="Next-boi"

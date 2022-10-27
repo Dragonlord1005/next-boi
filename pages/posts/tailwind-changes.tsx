@@ -61,7 +61,7 @@ const TailwindChanges: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:image"
-          content="https://next-boi-git-og-image-dragonlord1005.vercel.app/api/og?title=Tailwind Changes"
+          content="https://next-boi.vercel.app/api/og?title=Tailwind Changes"
         />
       </Head>
 
