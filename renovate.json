@@ -9,5 +9,6 @@
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "dependencies (non-major)"
     }
-  ]
+  ],
+  "baseBranches": ["app-rewrite"]
 }
