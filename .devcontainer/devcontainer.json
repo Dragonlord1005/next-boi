@@ -22,7 +22,8 @@
 		"trunk.io",
 		"dracula-theme.theme-dracula",
 		"vscode-icons-team.vscode-icons",
-		"quicktype.quicktype"
+		"quicktype.quicktype",
+		"voorjaar.windicss-intellisense"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
