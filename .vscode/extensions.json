@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "formulahendry.auto-rename-tag"
+        "formulahendry.auto-rename-tag",
+        "voorjaar.windicss-intellisense"
     ]
 }
